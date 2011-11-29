@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/memstick/host
+END
+tifm_ms.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/memstick/host/tifm_ms.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/memstick/host/Kconfig
+END
+jmb38x_ms.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/memstick/host/jmb38x_ms.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/memstick/host/Makefile
+END

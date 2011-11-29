@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/clocksource
+END
+acpi_pm.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/clocksource/acpi_pm.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/clocksource/Makefile
+END
+cyclone.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/clocksource/cyclone.c
+END
+scx200_hrt.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/clocksource/scx200_hrt.c
+END

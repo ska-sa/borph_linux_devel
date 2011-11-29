@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/intelfb
+END
+intelfbdrv.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/intelfb/intelfbdrv.c
+END
+intelfb_i2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/intelfb/intelfb_i2c.c
+END
+intelfbhw.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/intelfb/intelfbhw.c
+END
+intelfbhw.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/intelfb/intelfbhw.h
+END
+intelfb.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/intelfb/intelfb.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/intelfb/Makefile
+END

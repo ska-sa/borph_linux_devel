@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/can/old/i82527
+END
+i82527.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/can/old/i82527/i82527.c
+END
+proc.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/can/old/i82527/proc.c
+END
+i82527.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/can/old/i82527/i82527.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/can/old/i82527/Makefile
+END

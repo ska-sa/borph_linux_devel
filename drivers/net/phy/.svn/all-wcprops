@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy
+END
+icplus.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/icplus.c
+END
+fixed.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/fixed.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/Kconfig
+END
+phy.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/phy.c
+END
+mdio_bus.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/mdio_bus.c
+END
+marvell.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/marvell.c
+END
+cicada.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/cicada.c
+END
+smsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/smsc.c
+END
+lxt.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/lxt.c
+END
+qsemi.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/qsemi.c
+END
+phy_device.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/phy_device.c
+END
+davicom.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/davicom.c
+END
+vitesse.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/vitesse.c
+END
+broadcom.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/broadcom.c
+END
+realtek.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/realtek.c
+END
+mdio-bitbang.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/mdio-bitbang.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/phy/Makefile
+END

@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia
+END
+pcmcia_resource.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pcmcia_resource.c
+END
+sa1100_cerf.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_cerf.c
+END
+cs.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/cs.c
+END
+sa1100_badge4.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_badge4.c
+END
+sa11xx_base.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa11xx_base.c
+END
+tcic.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/tcic.c
+END
+sa11xx_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa11xx_base.h
+END
+pxa2xx_base.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pxa2xx_base.c
+END
+au1000_db1x00.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/au1000_db1x00.c
+END
+tcic.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/tcic.h
+END
+electra_cf.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/electra_cf.c
+END
+pxa2xx_cm_x270.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pxa2xx_cm_x270.c
+END
+pxa2xx_base.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pxa2xx_base.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/Makefile
+END
+cistpl.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/cistpl.c
+END
+vrc4171_card.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/vrc4171_card.c
+END
+au1000_pb1x00.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/au1000_pb1x00.c
+END
+sa1100_generic.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_generic.c
+END
+i82092aa.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/i82092aa.h
+END
+sa1100_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_generic.h
+END
+ricoh.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/ricoh.h
+END
+hd64465_ss.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/hd64465_ss.c
+END
+cirrus.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/cirrus.h
+END
+o2micro.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/o2micro.h
+END
+m8xx_pcmcia.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/m8xx_pcmcia.c
+END
+cardbus.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/cardbus.c
+END
+pxa2xx_sharpsl.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pxa2xx_sharpsl.c
+END
+at91_cf.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/at91_cf.c
+END
+pcmcia_ioctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pcmcia_ioctl.c
+END
+sa1100_shannon.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_shannon.c
+END
+pd6729.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pd6729.c
+END
+i82092.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/i82092.c
+END
+ti113x.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/ti113x.h
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/Kconfig
+END
+pd6729.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pd6729.h
+END
+sa1111_generic.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1111_generic.c
+END
+cs_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/cs_internal.h
+END
+pxa2xx_mainstone.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pxa2xx_mainstone.c
+END
+ds_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/ds_internal.h
+END
+sa1111_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1111_generic.h
+END
+m32r_pcc.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/m32r_pcc.c
+END
+m32r_pcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/m32r_pcc.h
+END
+socket_sysfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/socket_sysfs.c
+END
+sa1100_neponset.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_neponset.c
+END
+rsrc_nonstatic.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/rsrc_nonstatic.c
+END
+soc_common.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/soc_common.c
+END
+m32r_cfc.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/m32r_cfc.c
+END
+i82365.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/i82365.c
+END
+soc_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/soc_common.h
+END
+sa1100_simpad.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_simpad.c
+END
+au1000_generic.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/au1000_generic.c
+END
+m32r_cfc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/m32r_cfc.h
+END
+omap_cf.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/omap_cf.c
+END
+i82365.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/i82365.h
+END
+ds.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/ds.c
+END
+sa1100_assabet.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_assabet.c
+END
+au1000_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/au1000_generic.h
+END
+rsrc_mgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/rsrc_mgr.c
+END
+au1000_xxs1500.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/au1000_xxs1500.c
+END
+vg468.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/vg468.h
+END
+topic.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/topic.h
+END
+sa1100_h3600.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_h3600.c
+END
+vrc4173_cardu.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/vrc4173_cardu.c
+END
+yenta_socket.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/yenta_socket.c
+END
+pxa2xx_lubbock.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/pxa2xx_lubbock.c
+END
+sa1100_jornada720.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/sa1100_jornada720.c
+END
+vrc4173_cardu.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/vrc4173_cardu.h
+END
+yenta_socket.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pcmcia/yenta_socket.h
+END

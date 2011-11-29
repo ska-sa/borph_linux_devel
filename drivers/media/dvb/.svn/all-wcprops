@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/Kconfig
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/Makefile
+END

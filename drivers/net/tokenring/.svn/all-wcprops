@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/Kconfig
+END
+3c359_microcode.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/3c359_microcode.h
+END
+tmspci.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/tmspci.c
+END
+madgemc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/madgemc.h
+END
+tms380tr.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/tms380tr.c
+END
+3c359.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/3c359.c
+END
+tms380tr.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/tms380tr.h
+END
+skisa.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/skisa.c
+END
+3c359.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/3c359.h
+END
+olympic.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/olympic.c
+END
+lanstreamer.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/lanstreamer.c
+END
+ibmtr.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/ibmtr.c
+END
+olympic.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/olympic.h
+END
+abyss.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/abyss.c
+END
+lanstreamer.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/lanstreamer.h
+END
+proteon.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/proteon.c
+END
+abyss.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/abyss.h
+END
+smctr.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/smctr.c
+END
+smctr_firmware.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/smctr_firmware.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/Makefile
+END
+madgemc.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/madgemc.c
+END
+smctr.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/tokenring/smctr.h
+END

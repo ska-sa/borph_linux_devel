@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/sn
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/sn/Kconfig
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/sn/Makefile
+END
+ioc3.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/sn/ioc3.c
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/input/gameport
+END
+gameport.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/input/gameport/gameport.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/input/gameport/Kconfig
+END
+fm801-gp.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/input/gameport/fm801-gp.c
+END
+ns558.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/input/gameport/ns558.c
+END
+lightning.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/input/gameport/lightning.c
+END
+emu10k1-gp.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/input/gameport/emu10k1-gp.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/input/gameport/Makefile
+END

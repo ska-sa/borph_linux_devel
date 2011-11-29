@@ -1,0 +1,737 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char
+END
+keyboard.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/keyboard.c
+END
+hvc_console.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvc_console.c
+END
+nwflash.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/nwflash.c
+END
+hvc_iseries.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvc_iseries.c
+END
+tty_audit.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tty_audit.c
+END
+ip27-rtc.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ip27-rtc.c
+END
+hvc_console.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvc_console.h
+END
+cp437.uni
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/cp437.uni
+END
+hvc_beat.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvc_beat.c
+END
+generic_serial.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/generic_serial.c
+END
+efirtc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/efirtc.c
+END
+generic_nvram.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/generic_nvram.c
+END
+ds1620.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ds1620.c
+END
+vme_scc.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/vme_scc.c
+END
+tb0219.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tb0219.c
+END
+ppc405ez_dac.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ppc405ez_dac.c
+END
+synclink_gt.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/synclink_gt.c
+END
+stallion.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/stallion.c
+END
+riscom8_reg.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/riscom8_reg.h
+END
+rocket.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/rocket.c
+END
+synclinkmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/synclinkmp.c
+END
+toshiba.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/toshiba.c
+END
+synclink.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/synclink.c
+END
+i8k.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/i8k.c
+END
+rocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/rocket.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/Makefile
+END
+digiFep1.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/digiFep1.h
+END
+n_tty.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/n_tty.c
+END
+mxser.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/mxser.c
+END
+lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/lcd.c
+END
+mxser.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/mxser.h
+END
+n_r3964.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/n_r3964.c
+END
+specialix_io8.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/specialix_io8.h
+END
+cs5535_gpio.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/cs5535_gpio.c
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ChangeLog
+END
+mspec.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/mspec.c
+END
+lcd.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/lcd.h
+END
+tty_io.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tty_io.c
+END
+viotape.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/viotape.c
+END
+tlclk.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tlclk.c
+END
+mmtimer.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/mmtimer.c
+END
+lp.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/lp.c
+END
+dsp56k.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/dsp56k.c
+END
+mem.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/mem.c
+END
+cd1865.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/cd1865.h
+END
+nwbutton.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/nwbutton.c
+END
+specialix.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/specialix.c
+END
+ppc405ez_adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ppc405ez_adc.c
+END
+genrtc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/genrtc.c
+END
+vt_ioctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/vt_ioctl.c
+END
+ps3flash.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ps3flash.c
+END
+selection.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/selection.c
+END
+ser_a2232fw.ax
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ser_a2232fw.ax
+END
+nwbutton.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/nwbutton.h
+END
+esp.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/esp.c
+END
+sxwindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/sxwindow.h
+END
+raw.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/raw.c
+END
+hvc_vio.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvc_vio.c
+END
+virtio_console.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/virtio_console.c
+END
+istallion.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/istallion.c
+END
+dtlk.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/dtlk.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/Kconfig
+END
+consolemap.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/consolemap.c
+END
+defkeymap.map
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/defkeymap.map
+END
+lwmon5_kbd.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/lwmon5_kbd.c
+END
+nsc_gpio.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/nsc_gpio.c
+END
+ser_a2232.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ser_a2232.c
+END
+applicom.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/applicom.c
+END
+snsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/snsc.c
+END
+ser_a2232.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ser_a2232.h
+END
+applicom.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/applicom.h
+END
+nozomi.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/nozomi.c
+END
+snsc.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/snsc.h
+END
+ds1302.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ds1302.c
+END
+ppdev.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ppdev.c
+END
+viocons.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/viocons.c
+END
+defkeymap.c_shipped
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/defkeymap.c_shipped
+END
+sonypi.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/sonypi.c
+END
+nvram.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/nvram.c
+END
+cyclades.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/cyclades.c
+END
+ds1286.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ds1286.c
+END
+rtc.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/rtc.c
+END
+sx.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/sx.c
+END
+scx200_gpio.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/scx200_gpio.c
+END
+sx.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/sx.h
+END
+hpet.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hpet.c
+END
+pc8736x_gpio.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pc8736x_gpio.c
+END
+digi1.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/digi1.h
+END
+epcaconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/epcaconfig.h
+END
+hvcs.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvcs.c
+END
+moxa.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/moxa.c
+END
+ser_a2232fw.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/ser_a2232fw.h
+END
+amiserial.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/amiserial.c
+END
+rocket_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/rocket_int.h
+END
+snsc_event.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/snsc_event.c
+END
+vc_screen.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/vc_screen.c
+END
+epca.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/epca.c
+END
+apm-emulation.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/apm-emulation.c
+END
+hvsi.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvsi.c
+END
+hvc_rtas.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvc_rtas.c
+END
+tty_ioctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tty_ioctl.c
+END
+briq_panel.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/briq_panel.c
+END
+pty.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pty.c
+END
+epca.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/epca.h
+END
+serial167.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/serial167.c
+END
+digiPCI.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/digiPCI.h
+END
+scc.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/scc.h
+END
+vr41xx_giu.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/vr41xx_giu.c
+END
+random.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/random.c
+END
+sysrq.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/sysrq.c
+END
+isicom.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/isicom.c
+END
+riscom8.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/riscom8.c
+END
+mbcs.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/mbcs.c
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/.gitignore
+END
+n_hdlc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/n_hdlc.c
+END
+vt.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/vt.c
+END
+riscom8.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/riscom8.h
+END
+hangcheck-timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hangcheck-timer.c
+END
+mbcs.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/mbcs.h
+END
+hvc_xen.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/hvc_xen.c
+END
+sxboards.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/sxboards.h
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/misc.c
+END

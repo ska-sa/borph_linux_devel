@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/Kconfig
+END
+cpufreq_userspace.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/cpufreq_userspace.c
+END
+cpufreq_powersave.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/cpufreq_powersave.c
+END
+cpufreq_stats.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/cpufreq_stats.c
+END
+freq_table.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/freq_table.c
+END
+cpufreq.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/cpufreq.c
+END
+cpufreq_performance.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/cpufreq_performance.c
+END
+cpufreq_ondemand.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/cpufreq_ondemand.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/Makefile
+END
+cpufreq_conservative.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/cpufreq/cpufreq_conservative.c
+END

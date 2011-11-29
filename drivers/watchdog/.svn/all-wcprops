@@ -1,0 +1,431 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog
+END
+wafer5823wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wafer5823wdt.c
+END
+mpc8xx_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/mpc8xx_wdt.c
+END
+iTCO_vendor_support.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/iTCO_vendor_support.c
+END
+mv64x60_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/mv64x60_wdt.c
+END
+wd_lwmon5.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wd_lwmon5.c
+END
+ep93xx_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/ep93xx_wdt.c
+END
+alim1535_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/alim1535_wdt.c
+END
+it8712f_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/it8712f_wdt.c
+END
+sc1200wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/sc1200wdt.c
+END
+ks8695_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/ks8695_wdt.c
+END
+mixcomwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/mixcomwd.c
+END
+sbc8360.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/sbc8360.c
+END
+davinci_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/davinci_wdt.c
+END
+i6300esb.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/i6300esb.c
+END
+bfin_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/bfin_wdt.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/Makefile
+END
+scx200_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/scx200_wdt.c
+END
+pcwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/pcwd.c
+END
+wdt285.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wdt285.c
+END
+wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wdt.c
+END
+mpcore_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/mpcore_wdt.c
+END
+smsc37b787_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/smsc37b787_wdt.c
+END
+alim7101_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/alim7101_wdt.c
+END
+sc520_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/sc520_wdt.c
+END
+w83877f_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/w83877f_wdt.c
+END
+sbc60xxwdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/sbc60xxwdt.c
+END
+iTCO_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/iTCO_wdt.c
+END
+s3c2410_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/s3c2410_wdt.c
+END
+booke_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/booke_wdt.c
+END
+ixp2000_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/ixp2000_wdt.c
+END
+ixp4xx_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/ixp4xx_wdt.c
+END
+mpc83xx_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/mpc83xx_wdt.c
+END
+shwdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/shwdt.c
+END
+pnx4008_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/pnx4008_wdt.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/Kconfig
+END
+rm9k_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/rm9k_wdt.c
+END
+ib700wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/ib700wdt.c
+END
+sbc7240_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/sbc7240_wdt.c
+END
+mpc5200_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/mpc5200_wdt.c
+END
+softdog.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/softdog.c
+END
+iop_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/iop_wdt.c
+END
+wdt977.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wdt977.c
+END
+pcwd_usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/pcwd_usb.c
+END
+acquirewdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/acquirewdt.c
+END
+wd.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wd.c
+END
+omap_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/omap_wdt.c
+END
+w83977f_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/w83977f_wdt.c
+END
+advantechwdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/advantechwdt.c
+END
+omap_wdt.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/omap_wdt.h
+END
+w83697hf_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/w83697hf_wdt.c
+END
+wd501p.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wd501p.h
+END
+pc87413_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/pc87413_wdt.c
+END
+txx9wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/txx9wdt.c
+END
+eurotechwdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/eurotechwdt.c
+END
+wdrtas.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wdrtas.c
+END
+at91rm9200_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/at91rm9200_wdt.c
+END
+ar7_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/ar7_wdt.c
+END
+sbc_epx_c3.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/sbc_epx_c3.c
+END
+w83627hf_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/w83627hf_wdt.c
+END
+ibmasr.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/ibmasr.c
+END
+wd_mpc5200.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wd_mpc5200.c
+END
+sa1100_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/sa1100_wdt.c
+END
+sb_wdog.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/sb_wdog.c
+END
+mtx-1_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/mtx-1_wdt.c
+END
+hpwdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/hpwdt.c
+END
+at32ap700x_wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/at32ap700x_wdt.c
+END
+pcwd_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/pcwd_pci.c
+END
+wdt_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/wdt_pci.c
+END
+cpu5wdt.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/cpu5wdt.c
+END
+indydog.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/indydog.c
+END
+machzwd.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/watchdog/machzwd.c
+END

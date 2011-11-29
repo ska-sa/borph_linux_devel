@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2
+END
+flexcop-hw-filter.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-hw-filter.c
+END
+flexcop-dma.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-dma.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/Kconfig
+END
+flexcop.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop.c
+END
+flexcop-sram.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-sram.c
+END
+flexcop_ibi_value_le.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop_ibi_value_le.h
+END
+flexcop.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop.h
+END
+flexcop-pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-pci.c
+END
+flexcop-i2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-i2c.c
+END
+flexcop-reg.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-reg.h
+END
+flexcop-fe-tuner.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-fe-tuner.c
+END
+flexcop-eeprom.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-eeprom.c
+END
+flexcop-usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-usb.c
+END
+flexcop-misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-misc.c
+END
+flexcop_ibi_value_be.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop_ibi_value_be.h
+END
+flexcop-common.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-common.h
+END
+flexcop-usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/flexcop-usb.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/b2c2/Makefile
+END

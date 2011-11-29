@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/dca
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/dca/Kconfig
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/dca/Makefile
+END
+dca-sysfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/dca/dca-sysfs.c
+END
+dca-core.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/dca/dca-core.c
+END

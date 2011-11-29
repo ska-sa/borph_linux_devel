@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/Kconfig
+END
+tpm_tis.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/tpm_tis.c
+END
+tpm.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/tpm.c
+END
+tpm_atmel.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/tpm_atmel.c
+END
+tpm_nsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/tpm_nsc.c
+END
+tpm.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/tpm.h
+END
+tpm_infineon.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/tpm_infineon.c
+END
+tpm_atmel.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/tpm_atmel.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/Makefile
+END
+tpm_bios.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/tpm/tpm_bios.c
+END

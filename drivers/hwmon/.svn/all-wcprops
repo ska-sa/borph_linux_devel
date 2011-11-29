@@ -1,0 +1,425 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2382/trunk/roach/sw/linux/drivers/hwmon
+END
+vt1211.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/vt1211.c
+END
+vt1115.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/vt1115.c
+END
+ad7414.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/ad7414.c
+END
+applesmc.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/applesmc.c
+END
+fschmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/fschmd.c
+END
+max1619.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/max1619.c
+END
+adm1031.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/adm1031.c
+END
+ad7418.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/ad7418.c
+END
+fscher.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/fscher.c
+END
+lm80.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm80.c
+END
+lm63.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm63.c
+END
+f75375s.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/f75375s.c
+END
+w83792d.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/w83792d.c
+END
+w83l786ng.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/w83l786ng.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2277/trunk/roach/sw/linux/drivers/hwmon/Makefile
+END
+adt7473.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/adt7473.c
+END
+fscpos.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/fscpos.c
+END
+hdaps.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/hdaps.c
+END
+adm1021.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/adm1021.c
+END
+vt8231.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/vt8231.c
+END
+k8temp.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/k8temp.c
+END
+adm1025.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/adm1025.c
+END
+f71882fg.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/f71882fg.c
+END
+adm1029.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/adm1029.c
+END
+pc87427.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/pc87427.c
+END
+lm70.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm70.c
+END
+adm9240.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/adm9240.c
+END
+lm93.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm93.c
+END
+ibmpex.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/ibmpex.c
+END
+w83781d.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/w83781d.c
+END
+w83791d.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/w83791d.c
+END
+lm78.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm78.c
+END
+abituguru3.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/abituguru3.c
+END
+atxp1.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/atxp1.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2382/trunk/roach/sw/linux/drivers/hwmon/Kconfig
+END
+ads7828.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/ads7828.c
+END
+i5k_amb.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/i5k_amb.c
+END
+abituguru.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/abituguru.c
+END
+ds1621.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/ds1621.c
+END
+lm83.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm83.c
+END
+smsc47b397.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/smsc47b397.c
+END
+lm85.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm85.c
+END
+sis5595.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/sis5595.c
+END
+lm87.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm87.c
+END
+adt7470.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/adt7470.c
+END
+w83627hf.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/w83627hf.c
+END
+thmc50.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/thmc50.c
+END
+f71805f.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/f71805f.c
+END
+gl518sm.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/gl518sm.c
+END
+w83627ehf.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/w83627ehf.c
+END
+max6650.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/max6650.c
+END
+hwmon-vid.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/hwmon-vid.c
+END
+w83l785ts.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/w83l785ts.c
+END
+pc87360.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/pc87360.c
+END
+adm1026.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/adm1026.c
+END
+smsc47m1.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/smsc47m1.c
+END
+coretemp.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/coretemp.c
+END
+lm90.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm90.c
+END
+lm92.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm92.c
+END
+via686a.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/via686a.c
+END
+lm75.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm75.c
+END
+w83793.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/w83793.c
+END
+asb100.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/asb100.c
+END
+lm77.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm77.c
+END
+dme1737.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/dme1737.c
+END
+hwmon.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/hwmon.c
+END
+smsc47m192.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/smsc47m192.c
+END
+lm75.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/lm75.h
+END
+gl520sm.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/gl520sm.c
+END
+it87.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/hwmon/it87.c
+END

@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/Kconfig
+END
+goku_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/goku_udc.c
+END
+net2280.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/net2280.c
+END
+file_storage.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/file_storage.c
+END
+goku_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/goku_udc.h
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/config.c
+END
+net2280.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/net2280.h
+END
+atmel_usba_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/atmel_usba_udc.c
+END
+ether.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/ether.c
+END
+at91_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/at91_udc.c
+END
+dummy_hcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/dummy_hcd.c
+END
+fsl_usb2_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/fsl_usb2_udc.c
+END
+atmel_usba_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/atmel_usba_udc.h
+END
+at91_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/at91_udc.h
+END
+rndis.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/rndis.c
+END
+fsl_usb2_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/fsl_usb2_udc.h
+END
+zero.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/zero.c
+END
+serial.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/serial.c
+END
+amd5536udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/amd5536udc.c
+END
+m66592-udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/m66592-udc.c
+END
+rndis.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/rndis.h
+END
+amd5536udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/amd5536udc.h
+END
+pxa2xx_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/pxa2xx_udc.c
+END
+m66592-udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/m66592-udc.h
+END
+gadget_chips.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/gadget_chips.h
+END
+pxa2xx_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/pxa2xx_udc.h
+END
+s3c2410_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/s3c2410_udc.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/Makefile
+END
+inode.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/inode.c
+END
+s3c2410_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/s3c2410_udc.h
+END
+pd12_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/pd12_udc.c
+END
+ndis.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/ndis.h
+END
+epautoconf.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/epautoconf.c
+END
+musbhsfc_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/musbhsfc_udc.c
+END
+pd12_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/pd12_udc.h
+END
+musbhsfc_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/musbhsfc_udc.h
+END
+usbstring.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/usbstring.c
+END
+lh7a40x_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/lh7a40x_udc.c
+END
+printer.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/printer.c
+END
+omap_udc.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/omap_udc.c
+END
+lh7a40x_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/lh7a40x_udc.h
+END
+gmidi.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/gmidi.c
+END
+omap_udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/usb/gadget/omap_udc.h
+END

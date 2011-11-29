@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core
+END
+dvb_ca_en50221.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_ca_en50221.h
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/Kconfig
+END
+dvb_frontend.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_frontend.c
+END
+dvbdev.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvbdev.c
+END
+dvb_demux.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_demux.c
+END
+dvb_frontend.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_frontend.h
+END
+dvbdev.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvbdev.h
+END
+dvb_filter.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_filter.c
+END
+dvb_net.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_net.c
+END
+dvb_demux.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_demux.h
+END
+dvb_math.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_math.c
+END
+dvb_ringbuffer.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_ringbuffer.c
+END
+dvb_filter.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_filter.h
+END
+dvb_net.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_net.h
+END
+dmxdev.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dmxdev.c
+END
+demux.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/demux.h
+END
+dvb_math.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_math.h
+END
+dvb_ringbuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_ringbuffer.h
+END
+dvb_ca_en50221.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dvb_ca_en50221.c
+END
+dmxdev.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/dmxdev.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/dvb-core/Makefile
+END

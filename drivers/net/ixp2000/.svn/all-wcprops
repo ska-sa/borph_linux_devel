@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000
+END
+ixp2400_tx.ucode
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixp2400_tx.ucode
+END
+ixp2400-msf.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixp2400-msf.h
+END
+ixpdev.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixpdev.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/Kconfig
+END
+pm3386.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/pm3386.c
+END
+ixpdev_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixpdev_priv.h
+END
+ixpdev.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixpdev.h
+END
+ixp2400_rx.uc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixp2400_rx.uc
+END
+pm3386.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/pm3386.h
+END
+ixp2400_tx.uc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixp2400_tx.uc
+END
+caleb.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/caleb.c
+END
+caleb.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/caleb.h
+END
+ixp2400-msf.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixp2400-msf.c
+END
+ixp2400_rx.ucode
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/ixp2400_rx.ucode
+END
+enp2611.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/enp2611.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/ixp2000/Makefile
+END

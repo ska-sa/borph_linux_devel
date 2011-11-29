@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core
+END
+agent.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/agent.c
+END
+cm.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/cm.c
+END
+iwcm.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/iwcm.c
+END
+mad_rmpp.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/mad_rmpp.c
+END
+umem.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/umem.c
+END
+agent.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/agent.h
+END
+mad_rmpp.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/mad_rmpp.h
+END
+iwcm.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/iwcm.h
+END
+packer.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/packer.c
+END
+multicast.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/multicast.c
+END
+sa.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/sa.h
+END
+uverbs_main.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/uverbs_main.c
+END
+addr.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/addr.c
+END
+fmr_pool.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/fmr_pool.c
+END
+verbs.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/verbs.c
+END
+sa_query.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/sa_query.c
+END
+uverbs_marshall.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/uverbs_marshall.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/Makefile
+END
+cm_msgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/cm_msgs.h
+END
+user_mad.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/user_mad.c
+END
+device.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/device.c
+END
+cma.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/cma.c
+END
+mad.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/mad.c
+END
+cache.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/cache.c
+END
+mad_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/mad_priv.h
+END
+sysfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/sysfs.c
+END
+uverbs.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/uverbs.h
+END
+ud_header.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/ud_header.c
+END
+ucm.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/ucm.c
+END
+ucma.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/ucma.c
+END
+smi.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/smi.c
+END
+uverbs_cmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/uverbs_cmd.c
+END
+smi.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/smi.h
+END
+core_priv.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/core/core_priv.h
+END

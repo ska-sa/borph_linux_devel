@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/ttusb-dec
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/ttusb-dec/Kconfig
+END
+ttusbdecfe.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/ttusb-dec/ttusbdecfe.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/ttusb-dec/Makefile
+END
+ttusb_dec.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/ttusb-dec/ttusb_dec.c
+END
+ttusbdecfe.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/dvb/ttusb-dec/ttusbdecfe.h
+END

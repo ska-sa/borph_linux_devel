@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00
+END
+rt2x00dev.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00dev.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/Kconfig
+END
+rt2x00pci.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00pci.h
+END
+rt2x00reg.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00reg.h
+END
+rt2x00rfkill.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00rfkill.c
+END
+rt2x00.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00.h
+END
+rt2x00debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00debug.c
+END
+rt2500usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2500usb.c
+END
+rt2x00usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00usb.c
+END
+rt73usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt73usb.c
+END
+rt2x00debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00debug.h
+END
+rt2500usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2500usb.h
+END
+rt2x00usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00usb.h
+END
+rt73usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt73usb.h
+END
+rt2x00mac.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00mac.c
+END
+rt2x00ring.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00ring.h
+END
+rt2x00config.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00config.c
+END
+rt2400pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2400pci.c
+END
+rt2500pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2500pci.c
+END
+rt61pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt61pci.c
+END
+rt2x00dump.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00dump.h
+END
+rt2x00lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00lib.h
+END
+rt2x00pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00pci.c
+END
+rt2x00firmware.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2x00firmware.c
+END
+rt2400pci.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2400pci.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/Makefile
+END
+rt2500pci.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt2500pci.h
+END
+rt61pci.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/rt2x00/rt61pci.h
+END

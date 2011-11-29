@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/ulp/iser
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/ulp/iser/Kconfig
+END
+iscsi_iser.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/ulp/iser/iscsi_iser.h
+END
+iser_verbs.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/ulp/iser/iser_verbs.c
+END
+iser_initiator.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/ulp/iser/iser_initiator.c
+END
+iser_memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/ulp/iser/iser_memory.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/ulp/iser/Makefile
+END
+iscsi_iser.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/infiniband/ulp/iser/iscsi_iser.c
+END

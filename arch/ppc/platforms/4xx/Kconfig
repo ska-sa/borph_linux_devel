@@ -1,0 +1,417 @@
+config 4xx
+	bool
+	depends on 40x || 44x
+	default y
+
+config WANT_EARLY_SERIAL
+	bool
+	select SERIAL_8250
+	default n
+
+menu "IBM 4xx options"
+	depends on 4xx
+
+choice
+	prompt "Machine Type"
+	depends on 40x
+	default WALNUT
+
+config ACADIA
+	bool "Acadia"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC 405EZ evaluation board.
+
+config BUBINGA
+	bool "Bubinga"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the IBM 405EP evaluation board.
+
+config CPCI405
+	bool "CPCI405"
+	help
+	  This option enables support for the CPCI405 board.
+
+config EP405
+	bool "EP405/EP405PC"
+	select EMBEDDEDBOOT
+	help
+	  This option enables support for the EP405/EP405PC boards.
+
+config KILAUEA
+	bool "Kilauea"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC 405EX evaluation board.
+
+config MAKALU
+	bool "Makalu"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC 405EX evaluation board.
+
+config PPChameleonEVB
+	bool "PPChameleonEVB"
+	help
+	  This option enables support for the DAVE 405EP evaluation board.
+
+config REDWOOD_5
+	bool "Redwood-5"
+	help
+	  This option enables support for the IBM STB04 evaluation board.
+
+config REDWOOD_6
+	bool "Redwood-6"
+	help
+	  This option enables support for the IBM STBx25xx evaluation board.
+
+config SC3
+	bool "SolidCard3"
+	help
+	  This option enables support for the EuroDesign SolidCard3 405GPr evaluation board.
+
+config SYCAMORE
+	bool "Sycamore"
+	help
+	  This option enables support for the IBM PPC405GPr evaluation board.
+
+config TAIHU
+	bool "Taihu"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC 405EP evaluation board.
+
+config WALNUT
+	bool "Walnut"
+	help
+	  This option enables support for the IBM PPC405GP evaluation board.
+
+config XILINX_ML300
+	bool "Xilinx-ML300"
+	select XILINX_VIRTEX_II_PRO
+	select EMBEDDEDBOOT
+	help
+	  This option enables support for the Xilinx ML300 evaluation board.
+
+config XILINX_ML403
+	bool "Xilinx-ML403"
+	select XILINX_VIRTEX_4_FX
+	select EMBEDDEDBOOT
+	help
+	  This option enables support for the Xilinx ML403 evaluation board.
+endchoice
+
+choice
+	prompt "Machine Type"
+	depends on 44x
+	default EBONY
+
+config ALPR
+	bool "ALPR"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the ALPR board from Prodrive.
+
+config BAMBOO
+	bool "Bamboo"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the IBM PPC440EP evaluation board.
+
+config EBONY
+	bool "Ebony"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the IBM PPC440GP evaluation board.
+
+config KATMAI
+	bool "Katmai"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440SPe evaluation board.
+
+config LUAN
+	bool "Luan"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the IBM PPC440SP evaluation board.
+
+config LWMON5
+	bool "LWMON5"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the Liebherr LWMON5 board.
+
+config OCOTEA
+	bool "Ocotea"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the IBM PPC440GX evaluation board.
+
+config P3P440
+	bool "P3P440"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the Prodrive P3P440 board.
+
+config RAINIER
+	bool "Rainier"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440GRx evaluation board.
+
+config ROACHDUMMY
+	bool "ROACH"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440EPx ROACH board.
+
+config ROACH2PLATFORM
+	bool "ROACH2"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440EPx ROACH2 board.
+
+config SEQUOIA
+	bool "Sequoia"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440EPx evaluation board.
+
+config TAISHAN
+	bool "Taishan"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440GX evaluation board.
+
+config YELLOWSTONE
+	bool "Yellowstone"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440GR evaluation board.
+
+config YOSEMITE
+	bool "Yosemite"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440EP evaluation board.
+
+config YUCCA
+	bool "Yucca"
+	select WANT_EARLY_SERIAL
+	help
+	  This option enables support for the AMCC PPC440SPe evaluation board.
+
+endchoice
+
+config EP405PC
+	bool "EP405PC Support"
+	depends on EP405
+
+
+# It's often necessary to know the specific 4xx processor type.
+# Fortunately, it is impled (so far) from the board type, so we
+# don't need to ask more redundant questions.
+config NP405H
+	bool
+	depends on ASH
+	default y
+
+config 440EP
+	bool
+	depends on BAMBOO || YOSEMITE
+	select PPC_FPU
+	default y
+
+config 440EPX
+	bool
+	depends on LWMON5 || SEQUOIA || ROACH || ROACH2
+	select PPC_FPU
+	select USB_EHCI_BIG_ENDIAN_MMIO
+	select USB_EHCI_BIG_ENDIAN_DESC
+	default y
+
+config 440GP
+	bool
+	depends on EBONY || P3P440
+	default y
+
+config 440GR
+	bool
+	depends on YELLOWSTONE
+	default y
+
+config 440GRX
+	bool
+	depends on RAINIER
+	default y
+
+config 440GX
+	bool
+	depends on ALPR || OCOTEA || TAISHAN
+	default y
+
+config 440SP
+	bool
+	depends on LUAN
+	default y
+
+config 440SPE
+	bool
+	depends on YUCCA || KATMAI
+	default y
+
+config 440
+	bool
+	depends on 440GP || 440SP || 440SPE || 440EP || 440GR
+	default y
+
+config 440A
+	bool
+	depends on 440GX || 440EPX || 440GRX
+	default y
+
+config IBM440EP_ERR42
+	bool
+	depends on 440EP || 440GR
+	default y
+
+# All 405-based cores up until the 405GPR and 405EP have this errata.
+config IBM405_ERR77
+	bool
+	depends on 40x && !403GCX && !405GPR && !405EP
+	default y
+
+# All 40x-based cores, up until the 405GPR and 405EP have this errata.
+config IBM405_ERR51
+	bool
+	depends on 40x && !405GPR && !405EP
+	default y
+
+config BOOKE
+	bool
+	depends on 44x
+	default y
+
+config IBM_OCP
+	bool
+	depends on ACADIA || ALPR || ASH || BAMBOO || BUBINGA || CPCI405 || EBONY || EP405 || KATMAI || KILAUEA || LUAN || LWMON5 || MAKALU || OCOTEA || P3P440 || PPChameleonEVB || RAINIER || REDWOOD_5 || REDWOOD_6 || ROACH || ROACH2 || SC3 || SEQUOIA || SYCAMORE || TAIHU || TAISHAN || WALNUT || YELLOWSTONE || YOSEMITE || YUCCA
+	default y
+
+config IBM_EMAC4
+	bool
+	depends on 440GX || 440SP || 440SPE || 440EPX || 440GRX || 405EX
+	default y
+
+config IBM_EMAC4V4
+	bool
+	depends on 440EPX || 440GRX || 405EX
+	default y
+
+config IBM_EMAC3V2
+	bool
+	depends on 405EZ
+	default y
+
+config BIOS_FIXUP
+	bool
+	depends on ACADIA || BUBINGA || CPCI405 || EP405 || SC3 || SYCAMORE || TAIHU || WALNUT
+	default y
+
+# OAK doesn't exist but wanted to keep this around for any future 403GCX boards
+config 403GCX
+	bool
+	depends on OAK
+	default y
+
+config 405EP
+	bool
+	depends on BUBINGA || PPChameleonEVB || TAIHU
+	default y
+
+config 405GP
+	bool
+	depends on CPCI405 || EP405 || WALNUT
+	default y
+
+config 405GPR
+	bool
+	depends on SC3 || SYCAMORE
+	default y
+
+config 405EX
+	bool
+	depends on KILAUEA || MAKALU
+	default y
+
+config 405EZ
+	bool
+	depends on ACADIA
+	default y
+
+config XILINX_VIRTEX_II_PRO
+	bool
+	select XILINX_VIRTEX
+
+config XILINX_VIRTEX_4_FX
+	bool
+	select XILINX_VIRTEX
+
+config XILINX_VIRTEX
+	bool
+
+config STB03xxx
+	bool
+	depends on REDWOOD_5 || REDWOOD_6
+	default y
+
+config EMBEDDEDBOOT
+	bool
+
+config IBM_OPENBIOS
+	bool
+	depends on ASH || REDWOOD_5 || REDWOOD_6
+	default y
+
+config PPC4xx_DMA
+	bool "PPC4xx DMA controller support"
+	depends on 4xx && !440SP && !440SPE
+
+config PPC4xx_EDMA
+	bool
+	depends on !STB03xxx && PPC4xx_DMA
+	default y
+
+config PPC_GEN550
+	bool
+	depends on 4xx
+	default y
+
+choice
+	prompt "TTYS0 device and default console"
+	depends on 40x
+	default UART0_TTYS0
+
+config UART0_TTYS0
+	bool "UART0"
+
+config UART0_TTYS1
+	bool "UART1"
+
+endchoice
+
+config SERIAL_SICC
+	bool "SICC Serial port support"
+	depends on STB03xxx
+
+config UART1_DFLT_CONSOLE
+	bool
+	depends on SERIAL_SICC && UART0_TTYS1
+	default y
+
+config SERIAL_SICC_CONSOLE
+	bool
+	depends on SERIAL_SICC && UART0_TTYS1
+	default y
+endmenu

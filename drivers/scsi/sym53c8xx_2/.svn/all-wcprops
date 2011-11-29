@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2
+END
+sym_malloc.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_malloc.c
+END
+sym53c8xx.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym53c8xx.h
+END
+sym_fw.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_fw.c
+END
+sym_fw.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_fw.h
+END
+sym_nvram.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_nvram.c
+END
+sym_hipd.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_hipd.c
+END
+sym_defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_defs.h
+END
+sym_nvram.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_nvram.h
+END
+sym_hipd.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_hipd.h
+END
+sym_glue.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_glue.c
+END
+sym_misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_misc.h
+END
+sym_glue.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_glue.h
+END
+sym_fw1.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_fw1.h
+END
+sym_fw2.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/sym_fw2.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/sym53c8xx_2/Makefile
+END

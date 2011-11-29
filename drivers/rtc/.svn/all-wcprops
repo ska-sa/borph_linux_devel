@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/Kconfig
+END
+rtc-at32ap700x.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-at32ap700x.c
+END
+rtc-m48t86.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-m48t86.c
+END
+interface.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/interface.c
+END
+rtc-v3020.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-v3020.c
+END
+rtc-rs5c348.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-rs5c348.c
+END
+rtc-ds1511.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ds1511.c
+END
+rtc-dev.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-dev.c
+END
+class.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/class.c
+END
+rtc-test.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-test.c
+END
+rtc-x1205.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-x1205.c
+END
+rtc-ds1216.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ds1216.c
+END
+rtc-r9701.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-r9701.c
+END
+rtc-ds1553.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ds1553.c
+END
+rtc-ds1374.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ds1374.c
+END
+rtc-ds1672.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ds1672.c
+END
+rtc-s3c.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-s3c.c
+END
+rtc-omap.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-omap.c
+END
+rtc-m41t80.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-m41t80.c
+END
+rtc-pcf8563.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-pcf8563.c
+END
+rtc-pcf8583.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-pcf8583.c
+END
+rtc-ep93xx.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ep93xx.c
+END
+rtc-cmos.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-cmos.c
+END
+rtc-rs5c313.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-rs5c313.c
+END
+rtc-max6900.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-max6900.c
+END
+rtc-max6902.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-max6902.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/Makefile
+END
+rtc-at91sam9.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-at91sam9.c
+END
+rtc-rs5c372.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-rs5c372.c
+END
+rtc-m48t59.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-m48t59.c
+END
+rtc-sh.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-sh.c
+END
+rtc-ds1302.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ds1302.c
+END
+rtc-vr41xx.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-vr41xx.c
+END
+rtc-bfin.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-bfin.c
+END
+rtc-ds1307.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ds1307.c
+END
+rtc-ds1742.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-ds1742.c
+END
+rtc-stk17ta8.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-stk17ta8.c
+END
+rtc-at91rm9200.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-at91rm9200.c
+END
+rtc-core.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-core.h
+END
+rtc-pl031.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-pl031.c
+END
+rtc-isl1208.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-isl1208.c
+END
+rtc-proc.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-proc.c
+END
+rtc-sa1100.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-sa1100.c
+END
+rtc-lib.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-lib.c
+END
+hctosys.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/hctosys.c
+END
+rtc-s35390a.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-s35390a.c
+END
+rtc-sysfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/rtc/rtc-sysfs.c
+END

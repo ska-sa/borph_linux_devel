@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy
+END
+radio.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/radio.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/Kconfig
+END
+phy.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/phy.c
+END
+dma.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/dma.c
+END
+radio.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/radio.h
+END
+phy.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/phy.h
+END
+dma.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/dma.h
+END
+sysfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/sysfs.c
+END
+sysfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/sysfs.h
+END
+debugfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/debugfs.c
+END
+xmit.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/xmit.c
+END
+b43legacy.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/b43legacy.h
+END
+rfkill.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/rfkill.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/main.c
+END
+debugfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/debugfs.h
+END
+xmit.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/xmit.h
+END
+pio.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/pio.c
+END
+leds.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/leds.c
+END
+ilt.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/ilt.c
+END
+rfkill.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/rfkill.h
+END
+main.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/main.h
+END
+leds.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/leds.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/Makefile
+END
+pio.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/pio.h
+END
+ilt.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/b43legacy/ilt.h
+END

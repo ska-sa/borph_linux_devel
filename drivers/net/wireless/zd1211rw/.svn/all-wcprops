@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw
+END
+zd_rf_al7230b.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_rf_al7230b.c
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/Kconfig
+END
+zd_ieee80211.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_ieee80211.c
+END
+zd_def.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_def.h
+END
+zd_mac.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_mac.h
+END
+zd_rf.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_rf.c
+END
+zd_ieee80211.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_ieee80211.h
+END
+zd_rf.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_rf.h
+END
+zd_chip.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_chip.c
+END
+zd_rf_rf2959.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_rf_rf2959.c
+END
+zd_chip.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_chip.h
+END
+zd_usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_usb.c
+END
+zd_rf_al2230.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_rf_al2230.c
+END
+zd_usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_usb.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/Makefile
+END
+zd_rf_uw2453.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_rf_uw2453.c
+END
+zd_mac.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/net/wireless/zd1211rw/zd_mac.c
+END

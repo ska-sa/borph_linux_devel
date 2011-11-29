@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless
+END
+network.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/network.h
+END
+tty.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/tty.c
+END
+hardware.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/hardware.h
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/main.c
+END
+tty.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/tty.h
+END
+setup_protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/setup_protocol.h
+END
+main.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/main.h
+END
+network.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/network.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/Makefile
+END
+hardware.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/char/pcmcia/ipwireless/hardware.c
+END

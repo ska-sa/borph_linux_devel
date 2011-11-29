@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2002/trunk/roach/sw/linux/drivers/mmc/core
+END
+sdio.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio.c
+END
+bus.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/bus.h
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/Kconfig
+END
+sdio_cis.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio_cis.h
+END
+mmc_ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/mmc_ops.h
+END
+sd.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sd.c
+END
+sdio_bus.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio_bus.c
+END
+sdio_irq.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio_irq.c
+END
+mmc.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2002/trunk/roach/sw/linux/drivers/mmc/core/mmc.c
+END
+sdio_bus.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio_bus.h
+END
+host.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/host.c
+END
+sdio_ops.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio_ops.c
+END
+host.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/host.h
+END
+sdio_ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio_ops.h
+END
+sdio_io.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio_io.c
+END
+sd_ops.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sd_ops.c
+END
+core.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/core.c
+END
+bus.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/bus.c
+END
+sd_ops.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sd_ops.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/Makefile
+END
+sdio_cis.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/sdio_cis.c
+END
+mmc_ops.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/mmc_ops.c
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/core/core.h
+END

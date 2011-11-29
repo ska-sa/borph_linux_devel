@@ -1,0 +1,17 @@
+Added ROACH2 hardware plaform and BORPH support for ROACH2
+--This line, and those below, will be ignored--
+
+M    kernel/bkexecd.c
+A    kernel/hwr/hwrtype_roach2.c
+M    kernel/hwr/hwrtype_b2fpga.c
+A    kernel/hwr/ppc4xx_gpio.c
+M    kernel/hwr/Makefile
+M    include/asm-generic/gpio.h
+M    include/linux/kselectmap.h
+M    include/asm-ppc/ibm4xx.h
+M    fs/binfmt_bof.c
+M    arch/ppc/Kconfig
+M    arch/ppc/syslib/Makefile
+M    arch/ppc/platforms/4xx/Makefile
+M    arch/ppc/platforms/4xx/sequoia.c
+M    arch/ppc/platforms/4xx/Kconfig

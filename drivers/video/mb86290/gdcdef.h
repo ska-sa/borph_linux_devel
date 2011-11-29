@@ -1,0 +1,985 @@
+/****************************************************************************
+ *        MB86290 Series Graphics Controller Access Library
+ *        ALL RIGHTS RESERVED, COPYRIGHT (C) FUJITSU LIMITED 1999-2003
+ *        LICENSED MATERIAL - PROGRAM PROPERTY OF FUJITSU LIMITED
+ *        1.01.002
+ *
+ *  This program is free software; you can redistribute it and/or
+ *  modify it under the terms of the GNU General Public License
+ *  as published by the Free Software Foundation; either version
+ *  2 of the License, or (at your option) any later version.
+ *
+ ****************************************************************************/
+#ifndef _gdcdef_h_
+#define _gdcdef_h_
+
+#define GDC_TRUE			1
+#define GDC_FALSE			0
+
+#define GDC_HOST_BASE		0x01fc0000	/* Host interface register */
+#define GDC_I2C_BASE		0x01fcc000	/* I2C register */
+#define GDC_DISP_BASE		0x01fd0000	/* Display register */
+#define GDC_CAP_BASE		0x01fd8000	/* Capture register */
+#define GDC_DRAW_BASE		0x01ff0000	/* Draw register */
+#define GDC_GEO_BASE		0x01ff8000	/* Geometry register */
+
+#define	GDC_DL_FIFO		0x01ff8400	/* DisplayList FIFO */
+#define	GDC_BURST_BCB		0x01fc8040	/* Burst Controller Buffer */
+
+#define GDC_DISP_DCM_MASK   	0x0000FFFF
+
+#define GDC_FIRM_NUM		9
+
+/*
+ * DMA Transfer
+ */
+#define	GDC_TRANSMODE_LOCAL	0x00000010
+#define GDC_TRANSMODE_MASTER	0x00000020
+#define GDC_TRANSMODE_SLAVE	0x00000040
+#define GDC_TRANSMODE_SRC_FIX	0x00200000
+#define GDC_TRANSMODE_DST_FIX	0x00400000
+
+/*
+ * DL transfer mode
+ */
+#define GDC_DLTRANSMODE_LOCAL	GDC_TRANSMODE_LOCAL
+#define GDC_DLTRANSMODE_MASTER	GDC_TRANSMODE_MASTER
+#define GDC_DLTRANSMODE_SLAVE	GDC_TRANSMODE_SLAVE
+
+/* For gdclo.c start */
+/*
+ * G_Begin
+ */
+#define GDC_GEO_HEADER_BEGIN              0x21000000L
+
+/*
+ * G_End
+ */
+#define GDC_GEO_HEADER_END                0x23000000L
+
+/*
+ * Geometry command (Integer Setup)
+ */
+#define GDC_GEO_POINTS                    0x00000010L
+#define GDC_GEO_LINES                     0x00000011L
+#define GDC_GEO_POLYGON                   0x00000012L
+#define GDC_GEO_TRIANGLES                 0x00000013L
+#define GDC_GEO_QUADS                     0x00000014L
+#define GDC_GEO_LINE_STRIP                0x00000015L
+#define GDC_GEO_LINE_LOOP                 0x00000016L
+#define GDC_GEO_TRIANGLE_STRIP            0x00000017L
+#define GDC_GEO_TRIANGLE_FAN              0x00000018L
+#define GDC_GEO_QUAD_STRIP                0x00000019L
+
+/*
+ * Primitive ID
+ */
+#define GDC_PRIMID_GEO_TRIANGLES	( GDC_GEO_HEADER_BEGIN    | \
+					  (GDC_GEO_TRIANGLES<<16)   \
+					)
+#define GDC_PRIMID_GEO_TRIANGLE_FAN	( GDC_GEO_HEADER_BEGIN      | \
+					  (GDC_GEO_TRIANGLE_FAN<<16)  \
+					)
+#define GDC_PRIMID_GEO_TRIANGLE_STRIP	( GDC_GEO_HEADER_BEGIN        | \
+					  (GDC_GEO_TRIANGLE_STRIP<<16)  \
+					)
+#define GDC_PRIMID_GEO_LINES		( GDC_GEO_HEADER_BEGIN | \
+					  (GDC_GEO_LINES<<16)    \
+					)
+#define GDC_PRIMID_GEO_POLYLINE		( GDC_GEO_HEADER_BEGIN     | \
+					  (GDC_GEO_LINE_STRIP<<16)   \
+					)
+#define GDC_PRIMID_GEO_POLYGON		( GDC_GEO_HEADER_BEGIN  | \
+					  (GDC_GEO_POLYGON<<16)   \
+					)
+#define GDC_PRIMID_GEO_POINTS		( GDC_GEO_HEADER_BEGIN | \
+					  (GDC_GEO_POINTS<<16)   \
+					)
+
+/*
+ * Vertex Header
+ */
+#define GDC_GEO_HEADER_VERTEX		0x30000000L
+
+/*
+ * Geometry Attribute / Data format
+ */
+#define GDC_GEO_VTX_FLOAT		0x00000000L
+#define GDC_GEO_VTX_FIXED		0x00000020L
+#define GDC_GEO_VTX_INT			0x00000060L
+
+/*
+ * Geometry Attribute / Texture S and T data enable
+ */
+#define GDC_GEO_VTX_ST_ENABLE		0x00000008L
+#define GDC_GEO_VTX_ST_DISABLE		0x00000000L
+
+/*
+ * Geometry Attribute / Z data enable
+ */
+#define GDC_GEO_VTX_Z_ENABLE		0x00000004L
+#define GDC_GEO_VTX_Z_DISABLE		0x00000000L
+
+/*
+ * Geometry Attribute / Vertex color enable
+ */
+#define GDC_GEO_VTX_COL_ENABLE		0x00000002L
+#define GDC_GEO_VTX_COL_DISABLE		0x00000000L
+
+/*
+ * Geometry Attribute / Projection
+ */
+#define GDC_GEO_PROJECTION_FRUSTUM	0x00000001L
+#define GDC_GEO_PROJECTION_ORTHO	0x00000000L
+
+/*
+ * Surface Attribute
+ */
+#define GDC_SHADE_MODE_FLAT		0x00000000L
+#define GDC_SHADE_MODE_SMOOTH		0x00000001L
+#define GDC_DEPTH_TEST_DISABLE		0x00000000L
+#define GDC_DEPTH_TEST_ENABLE		0x00000004L
+#define GDC_DEPTH_FUNC_NEVER		0x00000000L
+#define GDC_DEPTH_FUNC_ALWAYS		0x00000008L
+#define GDC_DEPTH_FUNC_LESS		0x00000010L
+#define GDC_DEPTH_FUNC_LEQUAL		0x00000018L
+#define GDC_DEPTH_FUNC_EQUAL		0x00000020L
+#define GDC_DEPTH_FUNC_GEQUAL		0x00000028L
+#define GDC_DEPTH_FUNC_GREATER		0x00000030L
+#define GDC_DEPTH_FUNC_NOTEQUAL		0x00000038L
+#define GDC_DEPTH_WRITE_MASK_DISABLE	0x00000000L
+#define GDC_DEPTH_WRITE_MASK_ENABLE	0x00000040L
+#define GDC_BLEND_MODE_COPY		0x00000000L
+#define GDC_BLEND_MODE_ALPHA		0x00000080L
+#define GDC_BLEND_MODE_ROP		0x00000100L
+#define GDC_LOG_OPE_CLEAR		0x00000000L
+#define GDC_LOG_OPE_AND			0x00000200L
+#define GDC_LOG_OPE_AND_REVERSE		0x00000400L
+#define GDC_LOG_OPE_COPY		0x00000600L
+#define GDC_LOG_OPE_AND_INVERTED	0x00000800L
+#define GDC_LOG_OPE_NOP			0x00000a00L
+#define GDC_LOG_OPE_XOP			0x00000c00L
+#define GDC_LOG_OPE_OR			0x00000e00L
+#define GDC_LOG_OPE_NOR			0x00001000L
+#define GDC_LOG_OPE_EQUIV		0x00001200L
+#define GDC_LOG_OPE_INVERT		0x00001400L
+#define GDC_LOG_OPE_OR_REVERSE		0x00001600L
+#define GDC_LOG_OPE_COPY_INVERTED	0x00001800L
+#define GDC_LOG_OPE_OR_INVERTED		0x00001a00L
+#define GDC_LOG_OPE_NAND		0x00001c00L
+#define GDC_LOG_OPE_SET			0x00001e00L
+#define GDC_TT_SELECT_PLAIN		0x00000000L
+#define GDC_TT_SELECT_TILE		0x10000000L
+#define GDC_TT_SELECT_TEXTURE		0x20000000L
+
+/*
+ * Txture Attribute
+ */
+#define GDC_TEX_MEMORY_EXT			0x00000000L
+#define GDC_TEX_MEMORY_INT			0x00000001L
+#define GDC_TEX_PERSPECTIVE_DISABLE		0x00000000L
+#define GDC_TEX_PERSPECTIVE_ENABLE		0x00000008L
+#define GDC_TEX_FILTER_POINT			0x00000000L
+#define GDC_TEX_FILTER_BILINEAR			0x00000020L
+#define GDC_TEX_WRAP_T_CLAMP			0x00000000L
+#define GDC_TEX_WRAP_T_REPEAT			0x00000100L
+#define GDC_TEX_WRAP_T_BORDER			0x00000200L
+#define GDC_TEX_WRAP_S_CLAMP			0x00000000L
+#define GDC_TEX_WRAP_S_REPEAT			0x00000400L
+#define GDC_TEX_WRAP_S_BORDER			0x00000800L
+#define GDC_TEX_BLEND_DECAL			0x00000000L
+#define GDC_TEX_BLEND_MODELATE			0x00010000L
+#define GDC_TEX_BLEND_STENCIL			0x00020000L
+#define GDC_TEX_BLEND_ALPHA_ALL			0x00000000L
+#define GDC_TEX_BLEND_ALPHA_STENCIL		0x00100000L
+#define GDC_TEX_BLEND_ALPHA_STENCILALPHA	0x00200000L
+#define GDC_TEX_FAST_MODE_DISABLE		0x00000000L
+#define GDC_TEX_FAST_MODE_ENABLE		0x01000000L
+/* For gdclo.c end */
+
+#define GDC_GEO_NOCLIP_QUAD_STRIP         0x00000039L
+#define GDC_GEO_MAX_PRIMITIVE_TYPE	  (GDC_GEO_NOCLIP_QUAD_STRIP + 1)
+
+#define GDC_INIT_START	0	/* Initialize all */
+#define GDC_INIT_RESET	1	/* Software reset */
+
+#define GDC_CPU_SH	0
+#define GDC_CPU_V832	1
+#define GDC_CPU_WINDOWS	2
+#define GDC_CPU_OTHER	3
+
+/* Drawing attributes */
+#define GDC_RESTORE_FRAME			0x00000001
+#define GDC_RESTORE_Z_BASE			0x00000002
+#define GDC_RESTORE_TEXTURE			0x00000004
+#define GDC_RESTORE_POLYGON_FLAG_BASE		0x00000008
+#define GDC_RESTORE_CLIP			0x00000010
+#define GDC_RESTORE_ATTR_MISC			0x00000020
+#define GDC_RESTORE_ATTR_LINE			0x00000040
+#define GDC_RESTORE_ATTR_SURF			0x00000080
+#define GDC_RESTORE_ATTR_TEXTURE		0x00000100
+#define GDC_RESTORE_ATTR_BLT			0x00000200
+#define GDC_RESTORE_FORE_COLOR			0x00000400
+#define GDC_RESTORE_BACK_COLOR			0x00000800
+#define GDC_RESTORE_ALPHA			0x00001000
+#define GDC_RESTORE_BROKEN_LINE			0x00002000
+#define GDC_RESTORE_BROKENLINE_START		0x00004000
+
+#define GDC_RESTORE_GEO_BLT_TRANS_COLOR		0x00008000
+#define GDC_RESTORE_GEO_ATTR_MISC		0x00010000
+#define GDC_RESTORE_GEO_ATTR_LINE		0x00020000
+#define GDC_RESTORE_GEO_ATTR_SURF		0x00040000
+#define GDC_RESTORE_GEO_CONVERT			0x00080000
+
+#define GDC_RESTORE_EXT_GEO_ALPHA_MAP_BASE	0x00100000
+#define GDC_RESTORE_EXT_GEO_ATTR_LINE		0x00200000
+#define GDC_RESTORE_EXT_GEO_ATTR_SURF		0x00400000
+#define GDC_RESTORE_EXT_GEO_ATTR_SHADOW		0x00800000
+#define GDC_RESTORE_EXT_GEO_ATTR_BORDER		0x01000000
+#define GDC_RESTORE_EXT_GEO_ATTR_NON_TOP_LEFT	0x02000000
+#define GDC_RESTORE_EXT_GEO_LOGOUT_BASE		0x04000000
+#define GDC_RESTORE_EXT_GEO_EXTEND_ATTR		0x08000000
+
+#define GDC_RESTORE_COMMON			0x00007fff
+#define GDC_RESTORE_GEOMETRY			0x000f8000
+#define GDC_RESTORE_EXTEND			0x0ff00000
+#define GDC_RESTORE_ALL				0x0fffffff
+
+/* Graphics controller type */
+#define GDC_TYPE_MB86290A		0
+#define GDC_TYPE_MB86291		10
+#define GDC_TYPE_MB86291A		11
+#define GDC_TYPE_MB86292		20
+#define GDC_TYPE_MB86293		30
+#define GDC_TYPE_MB86294		40
+#define GDC_TYPE_MB86295		50
+#define GDC_TYPE_MB86296		60
+
+/* Execute mode */
+#define GDC_EXECMODE_SYNC		1
+#define GDC_EXECMODE_ASYNC		0
+
+/* DMA transfer mode */
+#define GDC_DMA_TRANUNIT_4		0
+#define GDC_DMA_TRANUNIT_32		1
+#define GDC_DMA_BUSMODE_CYCLE		0
+#define GDC_DMA_BUSMODE_BURST		1
+#define GDC_DMA_ADDRMODE_DUAL		0
+#define GDC_DMA_ADDRMODE_SINGLE		1
+
+#define GDC_DMA_REQUEST_NO_NEGATE	0
+#define GDC_DMA_REQUEST_NEGATE		1	/* default */
+#define GDC_DMA_ACKMODE			0	/* default */
+#define GDC_DMA_NO_ACKMODE		1
+
+/* Rendering mode */
+#define GDC_SHADE_FLAT			0x00
+#define GDC_SHADE_SMOOTH		0x01
+
+/* Primitive mode */
+#define GDC_POINTS			0x00
+#define GDC_LINES			0x01
+#define GDC_POLYLINE			0x02
+#define GDC_LINES_FAST			0x03
+#define GDC_POLYLINE_FAST		0x04
+#define GDC_TRIANGLES			0x05
+#define GDC_TRIANGLE_STRIP		0x06
+#define GDC_TRIANGLE_FAN		0x07
+#define GDC_POLYGON_CONVEX		0x08
+#define GDC_POLYGON			0x09
+#define GDC_TRIANGLES_FAST		0x0A
+#define GDC_TRIANGLE_STRIP_FAST		0x0B
+#define GDC_TRIANGLE_FAN_FAST		0x0C
+#define GDC_MAX_PRIMITIVE_TYPE		((GDC_TRIANGLE_FAN_FAST) + 1)
+
+/* Color mode */
+#define GDC_8BPP_FORMAT			0x0
+#define GDC_16BPP_FORMAT		0x1
+#define GDC_24BPP_FORMAT		0x2
+
+/* Clip attribute */
+#define GDC_CLIP			0x0A00
+#define GDC_CLIP_X_ON			0x00000100L
+#define GDC_CLIP_Y_ON			0x00000200L
+#define GDC_CLIP_DISABLE		0x00000000L
+
+/* Geometry shadow mode */
+/* for MB86293 or later */
+#define GDC_GEO_SHADOW			0
+#define GDC_GEO_SHADOW_COMPOSITION	1
+
+/* Z precision */
+/* for MB86293 or later */
+#define GDC_Z_16BIT			0
+#define GDC_Z_8BIT			1
+
+/* Binary bit pattern scaling mode */
+#define GDC_BPSCALE_H_EQUIV		0x00
+#define GDC_BPSCALE_H_TWICE		0x01
+#define GDC_BPSCALE_H_HALF		0x02
+#define GDC_BPSCALE_V_EQUIV		0x00
+#define GDC_BPSCALE_V_TWICE		0x04
+#define GDC_BPSCALE_V_HALF		0x08
+
+/* Binary bit pattern format */
+#define GDC_BITPATTERN_ORDER		0x0A01
+#define GDC_BITPATTERN_ORDER_R		0x0
+#define GDC_BITPATTERN_ORDER_L		0x1
+
+/* Line & polygon attributes */
+#define GDC_ANTI_ALIAS			0x0B00
+#define GDC_LINE_SMOOTH			0x0B01
+#define GDC_DEPTH_TEST			0x0B02
+#define GDC_DEPTH_FUNC			0x0B03
+#define GDC_SHADE_MODE			0x0B04
+#define GDC_LINE_STIPPLE		0x0B05
+#define GDC_BROKEN_LINE			0x0B06
+#define GDC_DEPTH_WRITE_MASK		0x0B07
+#define GDC_BLEND_MODE			0x0B08
+#define GDC_LINE_WIDTH			0x0B09
+#define GDC_TEXTURE_SELECT		0x0B0A
+#define GDC_LINE_ENDPOINT		0x0B10
+
+/* Geometry line mode */
+#define GDC_BROKEN_LINE_OFFSET		0x0B11
+
+/* Broken line period */
+#define GDC_BROKEN_LINE_PERIOD		0x0B12
+#define GDC_BROKEN_LINE_32		0
+#define GDC_BROKEN_LINE_24		1
+
+/* Alpha line/polygon mode */
+#define GDC_ALPHA_SHADE_MODE		0x0B13
+
+/* Line correct mask(hidden function) */
+#define GDC_LINE_CORRECT_MASK		0x0B14
+
+/* Shadow Line attributes */
+#define GDC_SHADOW_ANTI_ALIAS		0x1B00
+#define GDC_SHADOW_LINE_SMOOTH		0x1B01
+#define GDC_SHADOW_DEPTH_TEST		0x1B02
+#define GDC_SHADOW_DEPTH_FUNC		0x1B03
+#define GDC_SHADOW_SHADE_MODE		0x1B04
+#define GDC_SHADOW_LINE_STIPPLE		0x1B05
+#define GDC_SHADOW_BROKEN_LINE		0x1B06
+#define GDC_SHADOW_DEPTH_WRITE_MASK	0x1B07
+#define GDC_SHADOW_BLEND_MODE		0x1B08
+#define GDC_SHADOW_LINE_WIDTH		0x1B09
+#define GDC_SHADOW_TEXTURE_SELECT	0x1B0A
+#define GDC_SHADOW_LINE_ENDPOINT	0x1B10
+#define GDC_SHADOW_BROKEN_LINE_OFFSET	0x1B11
+#define GDC_SHADOW_BROKEN_LINE_PERIOD	0x1B12
+#define GDC_SHADOW_ALPHA_SHADE_MODE	0x1B13
+/* Shadow line correct mask(hidden function) */
+#define GDC_SHADOW_LINE_CORRECT_MASK	0x1B14
+
+/* Border Line attributes */
+#define GDC_BORDER_ANTI_ALIAS		0x2B00
+#define GDC_BORDER_LINE_SMOOTH		0x2B01
+#define GDC_BORDER_DEPTH_TEST		0x2B02
+#define GDC_BORDER_DEPTH_FUNC		0x2B03
+#define GDC_BORDER_SHADE_MODE		0x2B04
+#define GDC_BORDER_LINE_STIPPLE		0x2B05
+#define GDC_BORDER_BROKEN_LINE		0x2B06
+#define GDC_BORDER_DEPTH_WRITE_MASK	0x2B07
+#define GDC_BORDER_BLEND_MODE		0x2B08
+#define GDC_BORDER_LINE_WIDTH		0x2B09
+#define GDC_BORDER_TEXTURE_SELECT	0x2B0A
+#define GDC_BORDER_LINE_ENDPOINT	0x2B10
+#define GDC_BORDER_BROKEN_LINE_OFFSET	0x2B11
+#define GDC_BORDER_BROKEN_LINE_PERIOD	0x2B12
+#define GDC_BORDER_ALPHA_SHADE_MODE	0x2B13
+/* Border line correct mask(hidden function) */
+#define GDC_BORDER_LINE_CORRECT_MASK	0x2B14
+
+/* Non topleft polygon attributes */
+#define GDC_NON_TOPLEFT_DEPTH_TEST		0x3B02
+#define GDC_NON_TOPLEFT_DEPTH_FUNC		0x3B03
+#define GDC_NON_TOPLEFT_SHADE_MODE		0x3B04
+#define GDC_NON_TOPLEFT_DEPTH_WRITE_MASK	0x3B07
+#define GDC_NON_TOPLEFT_BLEND_MODE		0x3B08
+#define GDC_NON_TOPLEFT_TEXTURE_SELECT		0x3B0A
+#define GDC_NON_TOPLEFT_ALPHA_SHADE_MODE	0x3B13
+
+/* Extend geometry line mode */
+/* for MB86293 or later */
+#define GDC_GEO_THICK_LINE_CORRECT		0
+#define GDC_GEO_BROKEN_LINE_CORRECT		1
+#define GDC_GEO_UNIFORM_LINE_WIDTH		2
+#define GDC_GEO_THICK_LINE_VERTICAL		3
+#define GDC_GEO_BROKEN_LINE_VERTICAL		4
+#define GDC_GEO_BORDER_LINE			5
+#define GDC_GEO_SHADOW_MODE			6
+#define GDC_GEO_BROKEN_LINE_CORRECT_LENGTH	7
+#define GDC_GEO_PRIMITIVE_ORDER			8
+#define GDC_GEO_LINE_VERSION_CONTROL		9
+
+/* Geometry mode */
+#define GDC_GEO_VTX_COL			0x0
+#define GDC_GEO_VTX_Z			0x1
+#define GDC_GEO_VTX_ST			0x2
+#define GDC_GEO_VTX_W			0x10
+#define GDC_GEO_IN_FORMAT		0x3
+#define GDC_GEO_CLIP_Z			0x4
+#define GDC_GEO_DC_NO_FRAC		0x5
+/* for MB86293 or later(hidden function) */
+#define GDC_GEO_OVERLAP_Z_MODE		0x6
+#define GDC_GEO_VTX_COL_POLYGON		0x7
+
+/* Input mode */
+/* GMDR0                                             */
+/* 31 30 29 28.........7 6 5 4 3 2 1 0               */
+/*                     CFDFDF  T Z C F               */
+/*                     0 0 0           = float input */
+/*                     0 0 1           = fixed input */
+/*                     0 1 1           = int   input */
+#define GDC_GEO_FLOAT_INPUT		0
+#define GDC_GEO_FIXED_INPUT		1
+#define GDC_GEO_INT_INPUT		3
+
+/* GdcGeoOverlapZ mode(hidden function) */
+#define GDC_GEO_OVERLAP_Z_NORMAL	0
+#define GDC_GEO_OVERLAP_Z_SHADOW	1
+#define GDC_GEO_OVERLAP_Z_OFFSET	2
+
+/* Geometry triangle mode */
+#define GDC_GEO_FACE_CULL		0
+#define GDC_GEO_FACE_INVERT		1
+
+/* Extend geometry triangle mode */
+/* for MB86293 or later */
+/* See extend geometry line mode */
+/*#define GDC_GEO_SHADOW_MODE		6*/
+#define GDC_GEO_NON_TOPLEFT		7
+
+/* for MB86293 or later */
+#define GDC_REG_LOCATE_CENTER		0x00000000L
+#define GDC_REG_LOCATE_BOTTOM		0x00000001L
+#define GDC_CLOCK_100MHZ		0
+#define GDC_CLOCK_133MHZ		1
+#define GDC_CLOCK_166MHZ		2
+#define GDC_GEO_LOGOUT_DISABLE		0
+#define GDC_GEO_LOGOUT_ENABLE		1
+#define GDC_GEO_LOGOUT_ONLY		2
+#define GDC_BURST_MODE			0x00000000L
+#define GDC_BURST_STOP_MODE		0x60000000L
+
+/* Video capture mode */
+#define GDC_CAP_START			0x83000000L
+#define GDC_CAP_STOP			0x00000000L
+#define GDC_CAP_ENABLE_V_INTERPOLATION	0x00000000L
+#define GDC_CAP_DISABLE_V_INTERPOLATION	0x00100000L
+#define GDC_CAP_NTSC			0x00000000L
+#define GDC_CAP_PAL			0x00000002L
+
+/* Video capture mode */
+#define	GDC_CAP_VIDEO_SELECT		1
+#define	GDC_CAP_V_INTERPOLATION_MODE	2
+#define	GDC_CAP_INPUT_SELECT		3
+
+#define	GDC_CAP_INPUT_ITURBT656		0
+#define	GDC_CAP_INPUT_RGB666		1
+
+/* Video capture buffer mode */
+#define GDC_CAP_EVEN_AND_ODD_MODE	0
+#define GDC_CAP_ODD_ONLY_MODE		1
+
+/* NON-interlace convert mode */
+#define GDC_CAP_CNV_BOB_MODE		0
+#define GDC_CAP_CNV_WEAVE_MODE		1
+
+/* video capture burst mode */
+#define	GDC_CAP_BURST_STANDARD		0
+#define	GDC_CAP_BURST_LONG		1
+
+/* capture buffer format */
+#define	GDC_CAP_BUFFORMAT_YC		0
+#define	GDC_CAP_BUFFORMAT_RGB		1
+
+/* capture buffer mode */
+#define	GDC_CAP_BUFMODE_RING		0
+#define	GDC_CAP_BUFMODE_SINGLE		1
+
+/* Window(W-layer) mode(for video capture) */
+#define GDC_CAP_RGB_MODE		0
+#define GDC_CAP_YC_MODE			1
+#define GDC_CAP_NORMAL_MODE		0
+#define GDC_CAP_CAPTURE_MODE		1
+
+/* Capture attributes */
+#define GDC_CAP_ODD_MODE		0x0E00
+#define GDC_CAP_CNV_MODE		0x0E01
+#define GDC_CAP_BURST_MODE		0x0E05
+#define GDC_CAP_RGB_CONVERT_MODE	0x0E06
+#define GDC_CAP_SINGLE_BUFFER_MODE	0x0E07
+
+/* Capture burst mode for GdcCapSetAttrMisc command */
+#define GDC_CAP_STANDARD_BURST_MODE	0	/* Standard burst mode */
+#define GDC_CAP_LONG_BURST_MODE		1	/* Long burst mode */
+
+/* Capture Resouce Management */
+#define GDC_CAP_NO_OPTION		0x0000
+#define GDC_CAP_RGB_INPUT		0x0001
+
+/* RGB input sync */
+#define	GDC_CAP_RGB_VSYNC_POLARITY	1
+#define	GDC_CAP_RGB_HSYNC_POLARITY	2
+
+/* vsync/hsync polarity */
+#define GDC_NEGATIVE_EDGE		0x0000
+#define GDC_POSITIVE_EDGE		0x0001
+
+/* Blend ratio target layer */
+#define GDC_BLEND_RATIO_C		0
+#define GDC_BLEND_RATIO_WMB		1
+
+/* Blend mode */
+#define GDC_BLEND_COPY			0x0000
+#define GDC_BLEND_ALPHA			0x0001
+#define GDC_BLEND_ROP			0x0002
+
+/* Depth function */
+#define GDC_DEPTH_NEVER			0x0000
+#define GDC_DEPTH_ALWAYS		0x0001
+#define GDC_DEPTH_LESS			0x0002
+#define GDC_DEPTH_LEQUAL		0x0003
+#define GDC_DEPTH_EQUAL			0x0004
+#define GDC_DEPTH_GEQUAL		0x0005
+#define GDC_DEPTH_GREATER		0x0006
+#define GDC_DEPTH_NOTEQUAL		0x0007
+
+/* Texture select */
+#define GDC_SELECT_PLAIN		0x0000
+#define GDC_SELECT_TILE			0x0001
+#define GDC_SELECT_TEXTURE		0x0002
+
+/* Line attributes */
+#define GDC_LINE_WIDTH_1		0x0000
+#define GDC_LINE_WIDTH_2		0x0001
+#define GDC_LINE_WIDTH_3		0x0002
+#define GDC_LINE_WIDTH_4		0x0003
+#define GDC_LINE_WIDTH_5		0x0004
+#define GDC_LINE_WIDTH_6		0x0005
+#define GDC_LINE_WIDTH_7		0x0006
+#define GDC_LINE_WIDTH_8		0x0007
+#define GDC_LINE_WIDTH_9		0x0008
+#define GDC_LINE_WIDTH_10		0x0009
+#define GDC_LINE_WIDTH_11		0x000A
+#define GDC_LINE_WIDTH_12		0x000B
+#define GDC_LINE_WIDTH_13		0x000C
+#define GDC_LINE_WIDTH_14		0x000D
+#define GDC_LINE_WIDTH_15		0x000E
+#define GDC_LINE_WIDTH_16		0x000F
+#define GDC_LINE_WIDTH_17		0x0010
+#define GDC_LINE_WIDTH_18		0x0011
+#define GDC_LINE_WIDTH_19		0x0012
+#define GDC_LINE_WIDTH_20		0x0013
+#define GDC_LINE_WIDTH_21		0x0014
+#define GDC_LINE_WIDTH_22		0x0015
+#define GDC_LINE_WIDTH_23		0x0016
+#define GDC_LINE_WIDTH_24		0x0017
+#define GDC_LINE_WIDTH_25		0x0018
+#define GDC_LINE_WIDTH_26		0x0019
+#define GDC_LINE_WIDTH_27		0x001A
+#define GDC_LINE_WIDTH_28		0x001B
+#define GDC_LINE_WIDTH_29		0x001C
+#define GDC_LINE_WIDTH_30		0x001D
+#define GDC_LINE_WIDTH_31		0x001E
+#define GDC_LINE_WIDTH_32		0x001F
+
+/* Raster operation */
+#define GDC_ROP_CLEAR			0x0000
+#define GDC_ROP_AND			0x0001
+#define GDC_ROP_AND_REVERSE		0x0002
+#define GDC_ROP_COPY			0x0003
+#define GDC_ROP_AND_INVERTED		0x0004
+#define GDC_ROP_NOP			0x0005
+#define GDC_ROP_XOR			0x0006
+#define GDC_ROP_OR			0x0007
+#define GDC_ROP_NOR			0x0008
+#define GDC_ROP_EQUIV			0x0009
+#define GDC_ROP_INVERT			0x000A
+#define GDC_ROP_OR_REVERSE		0x000B
+#define GDC_ROP_COPY_INVERTED		0x000C
+#define GDC_ROP_OR_INVERTED		0x000D
+#define GDC_ROP_NAND			0x000E
+#define GDC_ROP_SET			0x000F
+
+/* For select target of logical operation */
+#define GDC_ROP_MODE			0x4B00	/* MDR1,MDR2,MDR3 */
+#define GDC_SHADOW_ROP_MODE		0x4B01	/* MDR1S,MDR2S */
+#define GDC_BORDER_ROP_MODE		0x4B02	/* MDR2B */
+#define GDC_NON_TOPLEFT_ROP_MODE	0x4B03	/* MDR2TL */
+
+/* For shadow */
+#define GDC_SHADOW_ROP_SELECT		0x0010
+#define GDC_SHADOW_ROP_CLEAR		0x0010
+#define GDC_SHADOW_ROP_AND		0x0011
+#define GDC_SHADOW_ROP_AND_REVERSE	0x0012
+#define GDC_SHADOW_ROP_COPY		0x0013
+#define GDC_SHADOW_ROP_AND_INVERTED	0x0014
+#define GDC_SHADOW_ROP_NOP		0x0015
+#define GDC_SHADOW_ROP_XOR		0x0016
+#define GDC_SHADOW_ROP_OR		0x0017
+#define GDC_SHADOW_ROP_NOR		0x0018
+#define GDC_SHADOW_ROP_EQUIV		0x0019
+#define GDC_SHADOW_ROP_INVERT		0x001A
+#define GDC_SHADOW_ROP_OR_REVERSE	0x001B
+#define GDC_SHADOW_ROP_COPY_INVERTED	0x001C
+#define GDC_SHADOW_ROP_OR_INVERTED	0x001D
+#define GDC_SHADOW_ROP_NAND		0x001E
+#define GDC_SHADOW_ROP_SET		0x001F
+
+/* For border */
+#define GDC_BORDER_ROP_SELECT		0x0020
+#define GDC_BORDER_ROP_CLEAR		0x0020
+#define GDC_BORDER_ROP_AND		0x0021
+#define GDC_BORDER_ROP_AND_REVERSE	0x0022
+#define GDC_BORDER_ROP_COPY		0x0023
+#define GDC_BORDER_ROP_AND_INVERTED	0x0024
+#define GDC_BORDER_ROP_NOP		0x0025
+#define GDC_BORDER_ROP_XOR		0x0026
+#define GDC_BORDER_ROP_OR		0x0027
+#define GDC_BORDER_ROP_NOR		0x0028
+#define GDC_BORDER_ROP_EQUIV		0x0029
+#define GDC_BORDER_ROP_INVERT		0x002A
+#define GDC_BORDER_ROP_OR_REVERSE	0x002B
+#define GDC_BORDER_ROP_COPY_INVERTED	0x002C
+#define GDC_BORDER_ROP_OR_INVERTED	0x002D
+#define GDC_BORDER_ROP_NAND		0x002E
+#define GDC_BORDER_ROP_SET		0x002F
+
+/* For non topleft primithive */
+#define GDC_NON_TOPLEFT_ROP_SELECT		0x0040
+#define GDC_NON_TOPLEFT_ROP_CLEAR		0x0040
+#define GDC_NON_TOPLEFT_ROP_AND			0x0041
+#define GDC_NON_TOPLEFT_ROP_AND_REVERSE		0x0042
+#define GDC_NON_TOPLEFT_ROP_COPY		0x0043
+#define GDC_NON_TOPLEFT_ROP_AND_INVERTED	0x0044
+#define GDC_NON_TOPLEFT_ROP_NOP			0x0045
+#define GDC_NON_TOPLEFT_ROP_XOR			0x0046
+#define GDC_NON_TOPLEFT_ROP_OR			0x0047
+#define GDC_NON_TOPLEFT_ROP_NOR			0x0048
+#define GDC_NON_TOPLEFT_ROP_EQUIV		0x0049
+#define GDC_NON_TOPLEFT_ROP_INVERT		0x004A
+#define GDC_NON_TOPLEFT_ROP_OR_REVERSE		0x004B
+#define GDC_NON_TOPLEFT_ROP_COPY_INVERTED	0x004C
+#define GDC_NON_TOPLEFT_ROP_OR_INVERTED		0x004D
+#define GDC_NON_TOPLEFT_ROP_NAND		0x004E
+#define GDC_NON_TOPLEFT_ROP_SET			0x004F
+
+/* Texture attributes */
+#define GDC_TEXTURE_BUFFER		0x0C00
+#define GDC_TEXTURE_PERSPECTIVE		0x0C01
+#define GDC_TEXTURE_FILTER		0x0C02
+#define GDC_TEXTURE_WRAP_S		0x0C03
+#define GDC_TEXTURE_WRAP_T		0x0C04
+#define GDC_TEXTURE_BLEND		0x0C05
+#define GDC_TEXTURE_ALPHA		0x0C06
+
+/* for MB86293 or later */
+#define GDC_TEXTURE_FAST_MODE		0x0C07
+
+#define GDC_TEXTURE_EXTERNAL		0x0
+#define GDC_TEXTURE_INTERNAL		0x1
+
+#define GDC_TEXTURE_POINT		0x0
+#define GDC_TEXTURE_BILINEAR		0x1
+
+#define GDC_TEXTURE_CLAMP		0x0
+#define GDC_TEXTURE_REPEAT		0x1
+#define GDC_TEXTURE_BORDER		0x2
+
+#define GDC_TEXTURE_DECAL		0x0
+#define GDC_TEXTURE_MODULATE		0x1
+#define GDC_TEXTURE_STENCIL		0x2
+
+#define GDC_TEXTURE_ALPHA_ALL		0x0
+#define GDC_TEXTURE_ALPHA_STENCIL	0x1
+#define GDC_TEXTURE_ALPHA_STENCILALPHA	0x2
+
+#define GDC_TEX_MEM_MODE_EXT		0x0
+#define GDC_TEX_MEM_MODE_INT		0x1
+
+/* Bitmap attributes */
+#define GDC_BLT_TILE			0x0D00
+#define GDC_TRANSPARENT_MODE		0x0D01
+
+#define GDC_BACKGROUND_TRANSPARENT	0x00008000L
+
+/* Enable & Disable */
+#define GDC_ENABLE			GDC_TRUE
+#define GDC_DISABLE			GDC_FALSE
+
+/* Display color mode */
+#define GDC_DISP_8_BPP			0x0
+#define GDC_DISP_16_BPP			0x1
+#define GDC_DISP_24_BPP			0x2
+
+/* Display dimension */
+#define GDC_DISP_LAYER_C		0x0
+#define GDC_DISP_LAYER_W		0x1
+#define GDC_DISP_LAYER_ML		0x2
+#define GDC_DISP_LAYER_MR		0x3
+#define GDC_DISP_LAYER_BL		0x4
+#define GDC_DISP_LAYER_BR		0x5
+#define GDC_DISP_LAYER_M		GDC_DISP_LAYER_MR
+#define GDC_DISP_LAYER_B		GDC_DISP_LAYER_BR
+
+/* Bank */
+#define GDC_FLIPMODE_0			0x00
+#define GDC_FLIPMODE_1			0x01
+#define GDC_FLIPMODE_AUTO		0x02
+
+#define GDC_DISP_BANK_0			0x00
+#define GDC_DISP_BANK_1			0x01
+
+/* Display attributes */
+#define GDC_OVERLAY_C_PRIORITY		0x00
+#define GDC_OVERLAY_C_BLEND		0x01
+
+#define GDC_C_LAYER_PALETTE		0x0
+#define GDC_MB_LAYER_PALETTE		0x1
+
+#define GDC_COLOR_NOTRANSPARENT		0x0
+#define GDC_COLOR_TRANSPARENT		0x1
+
+#define GDC_PRIORITY_C_LAYER		0x0
+#define GDC_PRIORITY_CURSOR		0x1
+
+#define GDC_CHROMAKEY_C			0x1
+#define GDC_CHROMAKEY_DISP		0x0
+
+#define GDC_COLOR_BLEND			0x80000000L
+
+/* Slope calculation type */
+#define GDC_CALC_FLOAT			0x0
+#define GDC_CALC_FIX			0x1
+
+/* for MB86293 or later start */
+#define GDC_DISP_LAYER_L0		0x10
+#define GDC_DISP_LAYER_L1		0x11
+#define GDC_DISP_LAYER_L2		0x12
+#define GDC_DISP_LAYER_L3		0x13
+#define GDC_DISP_LAYER_L4		0x14
+#define GDC_DISP_LAYER_L5		0x15
+
+#define GDC_NO_LAYER			0x07
+
+#define GDC_STANDARD_MODE		0x0
+#define GDC_WINDOW_MODE			0x1
+#define GDC_OVERLAY_EXT_MODE		0x2
+#define GDC_EXTEND_MODE			GDC_WINDOW_MODE | GDC_OVERLAY_EXT_MODE
+
+#define GDC_L0_LAYER_PALETTE		0x0
+#define GDC_L1_LAYER_PALETTE		0x1
+#define GDC_L2_LAYER_PALETTE		0x2
+#define GDC_L3_LAYER_PALETTE		0x3
+
+#define GDC_OVERLAY_PRIORITY		0x00
+#define GDC_OVERLAY_BLEND		0x01
+
+#define GDC_BLEND_CURRENT_RATIO			0x0
+#define GDC_BLEND_ONE_MINUS_CURRENT_RATIO	0x1
+
+#define GDC_BLEND_NO_CORRECT		0x0
+#define GDC_BLEND_CORRECT		0x1
+
+#define GDC_BLEND_RATIO_CONSTANT	0x0
+#define GDC_BLEND_RATIO_L5		0x1
+
+/* for MB86293 or later end */
+
+/* for GdcSetFIFOMode */
+#define GDC_FIFO_FULL_32		0x00
+#define GDC_FIFO_FULL_16		0x01
+#define GDC_FIFO_WAIT			0x00
+#define GDC_FIFO_NO_WAIT		0x02
+
+/* for SetModeRegister function */
+#define GDC_MDR1			0x00000000L
+#define GDC_MDR1S			0x00000002L
+#define GDC_MDR1B			0x00000004L
+#define GDC_MDR2			0x00000001L
+#define GDC_MDR2S			0x00000003L
+#define GDC_MDR2TL			0x00000007L
+
+/* for SetGModeRegister function */
+#define GDC_GMDR1E			0x00000010L
+#define GDC_GMDR2E			0x00000020L
+
+/* for SetColorRegister function */
+#define GDC_BODY_FC			0x00000000L
+#define GDC_BODY_BC			0x00000001L
+#define GDC_SHADOW_FC			0x00000002L
+#define GDC_SHADOW_BC			0x00000003L
+#define GDC_BORDER_FC			0x00000004L
+#define GDC_BORDER_BC			0x00000005L
+
+/* for Signal handling */
+#define	GDC_ERR_DRAW			0
+#define	GDC_ERR_EXTSYNC			1
+#define	GDC_ERR_HIFFATAL		2
+#define	GDC_ERR_ADDRESS			3
+#define	GDC_MAX_FACTOR			4
+
+/* Wait for event flag */
+#define GDC_RET_IMMEDIATELY		0
+#define GDC_WAIT_COMPLETE		1
+
+/* event flag */
+#define GDC_WAIT_AND	                0
+#define GDC_WAIT_OR	                1
+
+/* scroll */
+#define GDC_RET_IMMEDIATELY	        0
+#define GDC_WAIT_COMPLETE	        1
+
+/* Serial Parameter definition */
+#define	GDC_SIO_SL_ONE		0x00000000
+#define	GDC_SIO_SL_ALL		0x00000001
+#define	GDC_SIO_SP_LO		0x00000000
+#define	GDC_SIO_SP_HI		0x00000002
+#define	GDC_SIO_SD_DISABLE	0x00000004
+#define	GDC_SIO_SD_ENABLE	0x00000000
+#define	GDC_SIO_DOE_CONTINUOUS	0x00000000
+#define	GDC_SIO_DOE_ACTIVE	0x00000100
+#define	GDC_SIO_CKD_16		0x00000000
+#define	GDC_SIO_CKD_32		0x00010000
+#define	GDC_SIO_CKD_64		0x00020000
+#define	GDC_SIO_CKD_128		0x00030000
+#define	GDC_SIO_CKG_CONTINUOUS	0x00000000
+#define	GDC_SIO_CKG_ACTIVE	0x00040000
+#define	GDC_SIO_CKP_FALLINGEDGE	0x00000000
+#define	GDC_SIO_CKP_RISINGEDGE	0x00080000
+
+/* Serial Strobe Mode */
+#define	GDC_SIO_ST_DEFAULT	0x00000000L
+#define	GDC_SIO_ST_ONE		0x00010000L
+#define	GDC_SIO_ST_ALL		0x00030000L
+
+/* Purpose of Ext. pins */
+#define GDC_EXTPINS_PURPOSE_RGBIN	1
+#define GDC_EXTPINS_PURPOSE_SIO		2
+#define GDC_EXTPINS_PURPOSE_GPIO	3
+#define GDC_EXTPINS_PURPOSE_EEPROM	4
+#define GDC_EXTPINS_PURPOSE_BCUCTL	5
+
+/* GPIO */
+#define	GDC_EXTPIN_EDO		0x0001
+#define	GDC_EXTPIN_EDI		0x0002
+#define	GDC_EXTPIN_ECK		0x0004
+#define	GDC_EXTPIN_ECS		0x0008
+#define	GDC_EXTPIN_EE		0x0010
+#define	GDC_EXTPIN_BURSTC	0x0020
+#define	GDC_EXTPIN_TRANSC	0x0040
+#define	GDC_EXTPIN_SBUSY	0x0080
+#define	GDC_EXTPIN_BURSTEN	0x0100
+#define	GDC_EXTPIN_GI1		0x0200
+#define	GDC_EXTPIN_GI2		0x0400
+#define	GDC_EXTPIN_GI3		0x0800
+#define	GDC_EXTPIN_GI4		0x1000
+#define	GDC_EXTPIN_GI5		0x2000
+
+#define	GDC_EXTPINS_ALL		0x3FFF
+
+#define	GDC_EXTPINS_RGBIN		\
+(					\
+		GDC_EXTPIN_EDO		\
+		|GDC_EXTPIN_EDI		\
+		|GDC_EXTPIN_ECK		\
+		|GDC_EXTPIN_ECS		\
+		|GDC_EXTPIN_EE		\
+		|GDC_EXTPIN_BURSTC	\
+	/*	|GDC_EXTPIN_TRANSC  */	\
+		|GDC_EXTPIN_SBUSY	\
+	/*	|GDC_EXTPIN_BURSTEN */	\
+		|GDC_EXTPIN_GI1		\
+		|GDC_EXTPIN_GI2		\
+		|GDC_EXTPIN_GI3		\
+		|GDC_EXTPIN_GI4		\
+		|GDC_EXTPIN_GI5		\
+)
+
+#define	GDC_EXTPINS_EEPROM		\
+(					\
+		GDC_EXTPIN_EDO		\
+		|GDC_EXTPIN_EDI		\
+		|GDC_EXTPIN_ECK		\
+		|GDC_EXTPIN_ECS		\
+		|GDC_EXTPIN_EE		\
+)
+
+#define	GDC_EXTPINS_SIO			\
+(					\
+		GDC_EXTPIN_EDO		\
+		|GDC_EXTPIN_EDI		\
+		|GDC_EXTPIN_ECK		\
+	/*	|GDC_EXTPIN_ECS	   */	\
+	/*	|GDC_EXTPIN_EE	   */	\
+	/*	|GDC_EXTPIN_BURSTC */	\
+	/*	|GDC_EXTPIN_TRANSC */	\
+		|GDC_EXTPIN_SBUSY	\
+)
+
+#define	GDC_EXTPINS_BCUCTL		\
+(					\
+		GDC_EXTPIN_BURSTC	\
+		|GDC_EXTPIN_TRANSC	\
+		|GDC_EXTPIN_SBUSY	\
+		|GDC_EXTPIN_BURSTEN	\
+)
+
+#define	GDC_GPIO_OUTPUT		1
+#define	GDC_GPIO_INPUT		0
+
+/* Type Code Table */
+#define GDC_TYPE_G_NOP					0x00000020L
+#define GDC_TYPE_G_BEGIN				0x00000021L
+#define GDC_TYPE_G_BEGINCONT				0x00000022L
+#define GDC_TYPE_G_END					0x00000023L
+#define GDC_TYPE_G_VERTEX				0x00000030L
+#define GDC_TYPE_G_VERTEXLOG				0x00000032L
+#define GDC_TYPE_G_VERTEXNOPLOG				0x00000033L
+#define GDC_TYPE_G_INIT					0x00000040L
+#define GDC_TYPE_G_VIEWPORT				0x00000041L
+#define GDC_TYPE_G_DEPTHRANGE				0x00000042L
+#define GDC_TYPE_G_LOADMATRIX				0x00000043L
+#define GDC_TYPE_G_VIEWVOLUMEXYCLIP			0x00000044L
+#define GDC_TYPE_G_VIEWVOLUMEZCLIP			0x00000045L
+#define GDC_TYPE_G_VIEWVOLUMEWCLIP			0x00000046L
+#define GDC_TYPE_SETLVERTEX2I				0x00000072L
+#define GDC_TYPE_SETLVERTEX2IP				0x00000073L
+#define GDC_TYPE_SETMODEREGISTER			0x000000C0L
+#define GDC_TYPE_SETGMODEREGISTER			0x000000C1L
+#define GDC_TYPE_OVERLAPXYOFFT				0x000000C8L
+#define GDC_TYPE_OVERLAPZOFFT				0x000000C9L
+#define GDC_TYPE_DC_LOGOUTADDR				0x000000CCL
+#define GDC_TYPE_SETCOLORREGISTER			0x000000CEL
+#define GDC_TYPE_G_BEGINE				0x000000E1L
+#define GDC_TYPE_G_BEGINCONTE				0x000000E2L
+#define GDC_TYPE_G_ENDE					0x000000E3L
+#define GDC_TYPE_DRAWPIXEL				0x00000000L
+#define GDC_TYPE_DRAWPIXELZ				0x00000001L
+#define GDC_TYPE_DRAWLINE				0x00000002L
+#define GDC_TYPE_DRAWLINE2I				0x00000003L
+#define GDC_TYPE_DRAWLINE2IP				0x00000004L
+#define GDC_TYPE_DRAWTRAP				0x00000005L
+#define GDC_TYPE_DRAWVERTEX2I				0x00000006L
+#define GDC_TYPE_DRAWVERTEX2IP				0x00000007L
+#define GDC_TYPE_DRAWRECTP				0x00000009L
+#define GDC_TYPE_DRAWBITMAPP				0x0000000BL
+#define GDC_TYPE_BLTCOPYP				0x0000000DL
+#define GDC_TYPE_BLTCOPYALTERNATEP			0x0000000FL
+#define GDC_TYPE_LOADTEXTUREP				0x00000011L
+#define GDC_TYPE_BLTTEXTUREP				0x00000013L
+#define GDC_TYPE_BLTCOPYALTALPHABLENDP			0x0000001FL
+#define GDC_TYPE_SETVERTEX2I				0x00000070L
+#define GDC_TYPE_SETVERTEX2IP				0x00000071L
+#define GDC_TYPE_DRAW					0x000000F0L
+#define GDC_TYPE_SETREGISTER				0x000000F1L
+#define GDC_TYPE_SYNC					0x000000FCL
+#define GDC_TYPE_INTERRUPT				0x000000FDL
+#define GDC_TYPE_NOP					0x000000FFL
+
+#endif /* _gdcdef_h_ */

@@ -1,0 +1,6 @@
+
+Added roach2 platform and modified smap routines to use ppc gpio instead of CPLD memory access
+--This line, and those below, will be ignored--
+
+A    hwrtype_roach2.c
+A    ppc4xx_gpio.c

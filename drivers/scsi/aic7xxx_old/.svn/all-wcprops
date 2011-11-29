@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old
+END
+aic7xxx_proc.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old/aic7xxx_proc.c
+END
+sequencer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old/sequencer.h
+END
+aic7xxx.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old/aic7xxx.h
+END
+aic7xxx.seq
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old/aic7xxx.seq
+END
+aic7xxx_seq.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old/aic7xxx_seq.c
+END
+aic7xxx.reg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old/aic7xxx.reg
+END
+scsi_message.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old/scsi_message.h
+END
+aic7xxx_reg.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/scsi/aic7xxx_old/aic7xxx_reg.h
+END

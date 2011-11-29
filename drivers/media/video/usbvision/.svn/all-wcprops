@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision/Kconfig
+END
+usbvision-cards.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision/usbvision-cards.h
+END
+usbvision-video.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision/usbvision-video.c
+END
+usbvision.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision/usbvision.h
+END
+usbvision-core.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision/usbvision-core.c
+END
+usbvision-cards.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision/usbvision-cards.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision/Makefile
+END
+usbvision-i2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/usbvision/usbvision-i2c.c
+END

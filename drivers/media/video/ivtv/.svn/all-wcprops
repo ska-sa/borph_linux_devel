@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/Kconfig
+END
+ivtv-ioctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-ioctl.c
+END
+ivtvfb.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtvfb.c
+END
+ivtv-firmware.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-firmware.c
+END
+ivtv-i2c.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-i2c.c
+END
+ivtv-streams.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-streams.c
+END
+ivtv-ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-ioctl.h
+END
+ivtv-vbi.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-vbi.c
+END
+ivtv-firmware.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-firmware.h
+END
+ivtv-i2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-i2c.h
+END
+ivtv-streams.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-streams.h
+END
+ivtv-yuv.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-yuv.c
+END
+ivtv-vbi.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-vbi.h
+END
+ivtv-yuv.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-yuv.h
+END
+ivtv-irq.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-irq.c
+END
+ivtv-driver.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-driver.c
+END
+ivtv-irq.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-irq.h
+END
+ivtv-driver.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-driver.h
+END
+ivtv-controls.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-controls.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/Makefile
+END
+ivtv-controls.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-controls.h
+END
+ivtv-queue.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-queue.c
+END
+ivtv-udma.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-udma.c
+END
+ivtv-routing.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-routing.c
+END
+ivtv-queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-queue.h
+END
+ivtv-version.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-version.h
+END
+ivtv-udma.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-udma.h
+END
+ivtv-mailbox.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-mailbox.c
+END
+ivtv-routing.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-routing.h
+END
+ivtv-cards.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-cards.c
+END
+ivtv-gpio.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-gpio.c
+END
+ivtv-mailbox.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-mailbox.h
+END
+ivtv-cards.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-cards.h
+END
+ivtv-fileops.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-fileops.c
+END
+ivtv-gpio.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-gpio.h
+END
+ivtv-fileops.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/media/video/ivtv/ivtv-fileops.h
+END

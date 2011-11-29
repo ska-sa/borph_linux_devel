@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2257/trunk/roach/sw/linux/drivers/mmc/host
+END
+imxmmc.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/imxmmc.h
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2118/trunk/roach/sw/linux/drivers/mmc/host/Kconfig
+END
+sdhci.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/sdhci.h
+END
+wbsd.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/wbsd.c
+END
+ricoh_mmc.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/ricoh_mmc.c
+END
+wbsd.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/wbsd.h
+END
+at91_mci.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/at91_mci.c
+END
+au1xmmc.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/au1xmmc.c
+END
+au1xmmc.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/au1xmmc.h
+END
+pxamci.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/pxamci.c
+END
+mmci.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/mmci.c
+END
+tifm_sd.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/tifm_sd.c
+END
+pxamci.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/pxamci.h
+END
+mmc_spi.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/mmc_spi.c
+END
+roach_mmc.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2257/trunk/roach/sw/linux/drivers/mmc/host/roach_mmc.c
+END
+mmci.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/mmci.h
+END
+imxmmc.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/imxmmc.c
+END
+sdhci.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/sdhci.c
+END
+omap.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/mmc/host/omap.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2118/trunk/roach/sw/linux/drivers/mmc/host/Makefile
+END
+roach_mmc.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2257/trunk/roach/sw/linux/drivers/mmc/host/roach_mmc.h
+END

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/Kconfig
+END
+logo_spe_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_spe_clut224.ppm
+END
+logo.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo.c
+END
+logo_linux_mono.pbm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_linux_mono.pbm
+END
+logo_dec_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_dec_clut224.ppm
+END
+logo_superh_vga16.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_superh_vga16.ppm
+END
+logo_linux_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_linux_clut224.ppm
+END
+logo_mac_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_mac_clut224.ppm
+END
+logo_superh_mono.pbm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_superh_mono.pbm
+END
+logo_sun_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_sun_clut224.ppm
+END
+logo_superh_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_superh_clut224.ppm
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/.gitignore
+END
+clut_vga16.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/clut_vga16.ppm
+END
+logo_parisc_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_parisc_clut224.ppm
+END
+logo_sgi_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_sgi_clut224.ppm
+END
+logo_m32r_clut224.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_m32r_clut224.ppm
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/Makefile
+END
+logo_linux_vga16.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/video/logo/logo_linux_vga16.ppm
+END

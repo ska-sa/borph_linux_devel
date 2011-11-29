@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug
+END
+Kconfig
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/Kconfig
+END
+acpi_pcihp.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/acpi_pcihp.c
+END
+rpaphp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/rpaphp.h
+END
+cpcihp_generic.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpcihp_generic.c
+END
+cpcihp_zt5550.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpcihp_zt5550.c
+END
+rpaphp_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/rpaphp_core.c
+END
+cpqphp_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpqphp_core.c
+END
+pciehp_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/pciehp_pci.c
+END
+cpcihp_zt5550.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpcihp_zt5550.h
+END
+pcihp_skeleton.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/pcihp_skeleton.c
+END
+ibmphp_hpc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/ibmphp_hpc.c
+END
+cpci_hotplug_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpci_hotplug_pci.c
+END
+shpchp_sysfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/shpchp_sysfs.c
+END
+rpadlpar_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/rpadlpar_core.c
+END
+cpqphp_ctrl.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpqphp_ctrl.c
+END
+shpchp_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/shpchp_pci.c
+END
+ibmphp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/ibmphp.h
+END
+pci_hotplug_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/pci_hotplug_core.c
+END
+rpaphp_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/rpaphp_pci.c
+END
+ibmphp_ebda.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/ibmphp_ebda.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/Makefile
+END
+shpchp_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/shpchp_core.c
+END
+cpqphp_nvram.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpqphp_nvram.c
+END
+acpiphp_glue.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/acpiphp_glue.c
+END
+cpqphp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpqphp.h
+END
+pciehp_hpc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/pciehp_hpc.c
+END
+cpqphp_nvram.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpqphp_nvram.h
+END
+shpchp_ctrl.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/shpchp_ctrl.c
+END
+ibmphp_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/ibmphp_pci.c
+END
+rpadlpar.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/rpadlpar.h
+END
+acpiphp_ibm.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/acpiphp_ibm.c
+END
+pciehp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/pciehp.h
+END
+fakephp.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/fakephp.c
+END
+shpchp_hpc.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/shpchp_hpc.c
+END
+pciehp_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/pciehp_core.c
+END
+cpqphp_sysfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpqphp_sysfs.c
+END
+sgi_hotplug.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/sgi_hotplug.c
+END
+cpci_hotplug.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpci_hotplug.h
+END
+cpqphp_pci.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpqphp_pci.c
+END
+ibmphp_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/ibmphp_core.c
+END
+ibmphp_res.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/ibmphp_res.c
+END
+cpci_hotplug_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/cpci_hotplug_core.c
+END
+acpiphp.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/acpiphp.h
+END
+shpchp.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/shpchp.h
+END
+rpaphp_slot.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/rpaphp_slot.c
+END
+pciehp_ctrl.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/pciehp_ctrl.c
+END
+acpiphp_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/acpiphp_core.c
+END
+rpadlpar_sysfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/pci/hotplug/rpadlpar_sysfs.c
+END

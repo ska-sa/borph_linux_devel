@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/serial/cpm_uart
+END
+cpm_uart.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/serial/cpm_uart/cpm_uart.h
+END
+cpm_uart_cpm1.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/serial/cpm_uart/cpm_uart_cpm1.h
+END
+cpm_uart_cpm2.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/serial/cpm_uart/cpm_uart_cpm2.h
+END
+cpm_uart_core.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/serial/cpm_uart/cpm_uart_core.c
+END
+cpm_uart_cpm1.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/serial/cpm_uart/cpm_uart_cpm1.c
+END
+cpm_uart_cpm2.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/serial/cpm_uart/cpm_uart_cpm2.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1674/trunk/roach/sw/linux/drivers/serial/cpm_uart/Makefile
+END
