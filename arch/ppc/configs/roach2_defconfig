@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.25
-# Thu Nov 17 20:49:33 2011
+# Wed Nov 30 15:56:23 2011
 #
 CONFIG_WORD_SIZE=32
 CONFIG_MMU=y
@@ -26,7 +26,7 @@ CONFIG_BORPH=y
 # CONFIG_BEE2 is not set
 # CONFIG_ROACH is not set
 CONFIG_ROACH2=y
-# CONFIG_HWR_ROACHV6 is not set
+CONFIG_HWR_ROACHV6=y
 # CONFIG_MKD is not set
 CONFIG_BINFMT_BOF=y
 CONFIG_DEFCONFIG_LIST="/lib/modules/$UNAME_RELEASE/.config"

@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.25
-# Wed Nov 16 09:41:48 2011
+# Wed Nov 30 15:53:44 2011
 #
 CONFIG_WORD_SIZE=32
 CONFIG_MMU=y
@@ -37,7 +37,7 @@ CONFIG_DEFCONFIG_LIST="/lib/modules/$UNAME_RELEASE/.config"
 # CONFIG_EXPERIMENTAL is not set
 CONFIG_BROKEN_ON_SMP=y
 CONFIG_INIT_ENV_ARG_LIMIT=32
-CONFIG_LOCALVERSION="-r2bm-"
+CONFIG_LOCALVERSION="r2b-"
 CONFIG_LOCALVERSION_AUTO=y
 # CONFIG_SWAP is not set
 CONFIG_SYSVIPC=y

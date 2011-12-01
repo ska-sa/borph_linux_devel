@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.25
- * Thu Nov 17 20:49:37 2011
+ * Wed Nov 30 15:56:25 2011
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_ROACH2PLATFORM 1
@@ -86,6 +86,7 @@
 #define CONFIG_SERIAL_CORE 1
 #define CONFIG_SIGNALFD 1
 #define CONFIG_PPC32 1
+#define CONFIG_HWR_ROACHV6 1
 #define CONFIG_SCSI_WAIT_SCAN_MODULE 1
 #define CONFIG_IKCONFIG 1
 #define CONFIG_USB_ANNOUNCE_NEW_DEVICES 1

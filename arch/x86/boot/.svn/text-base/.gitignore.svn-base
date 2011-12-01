@@ -1,7 +1,0 @@
-bootsect
-bzImage
-setup
-setup.bin
-setup.elf
-cpustr.h
-mkcpustr

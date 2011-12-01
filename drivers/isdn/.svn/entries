@@ -1,132 +1,0 @@
-10
-
-dir
-3462
-http://casper.berkeley.edu/svn/trunk/roach/sw/linux/drivers/isdn
-http://casper.berkeley.edu/svn
-
-
-
-2009-02-18T12:31:06.270117Z
-1674
-mwelz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-577e11ce-4b3a-42a0-b907-5d4e03b181e5
-
-Kconfig
-file
-
-
-
-
-2011-03-23T08:08:44.342544Z
-552efacebf5b2e76414ebb2e67aa8280
-2009-02-18T12:31:06.270117Z
-1674
-mwelz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2203
-
-pcbit
-dir
-
-gigaset
-dir
-
-hysdn
-dir
-
-sc
-dir
-
-isdnloop
-dir
-
-i4l
-dir
-
-act2000
-dir
-
-icn
-dir
-
-capi
-dir
-
-hisax
-dir
-
-divert
-dir
-
-hardware
-dir
-
-Makefile
-file
-
-
-
-
-2011-03-23T08:08:44.342544Z
-e2ae95e8f6ad4612d9173e12328875c3
-2009-02-18T12:31:06.270117Z
-1674
-mwelz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-556
-
